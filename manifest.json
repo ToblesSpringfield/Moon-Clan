@@ -1,0 +1,204 @@
+{
+   "info": {
+      "name" : "Moon Clan",
+		"namespace" : "moon_clan",
+		"version" : 3,
+		"steam_file_id" : "3808706416"
+   },
+   "dependencies": [
+      "stonehearth",
+      "rayyas_children",
+      "northern_alliance",
+      "stonehearth_ace",
+      "swamp_goblins"
+   ],
+   "default_locale": "en",
+   "server_init_script" : "file(moon_clan_server)",
+   "aliases": {
+      "jobs:index": "file(jobs/index.json)",
+      "jobs:moon_clan_index" : "file(jobs/moon_clan_index.json)",
+      "jobs:warmaster" : "file(jobs/warmaster/warmaster_description.json)",
+      "kingdoms:moon_clan": "file(data/moon_clan_population.json)",
+      
+      "warmaster:talisman" : "file(jobs/warmaster/warmaster_hammer/warmaster_hammer_talisman.json)",
+      "warmaster:hammer" : "file(jobs/warmaster/warmaster_hammer)",
+      "warmaster:outfit" : "file(jobs/warmaster/warmaster_outfit/warmaster_outfit.json)",
+      "warmaster:workbench" : "file(jobs/warmaster/warmaster_workbench/warmaster_workbench.json)",
+      "warmaster:forge" : "file(jobs/warmaster/warmaster_forge/warmaster_forge.json)",
+      
+      "animations:fire" : "file(data/rigs/alligator_small_guardian/animations/fire.json)",
+      "animations:idle" : "file(data/rigs/alligator_small_guardian/animations/idle.json)",
+      "animation_table:alligator_small_guardian" : "file(data/rigs/alligator_small_guardian/alligator_small_guardian.json)",
+      
+      "armor:bronze_armor" : "file(entities/armor/bronze_armor/bronze_armor.json)",
+      "armor:bronze_pot_helmet" : "file(entities/armor/bronze_pot_helmet/bronze_pot_helmet.json)",
+      "armor:bronze_shield" : "file(entities/armor/bronze_shield/bronze_shield.json)",
+      "armor:bronze_spirit_walker_helmet" : "file(entities/armor/bronze_spirit_walker_helmet/bronze_spirit_walker_helmet.json)",
+      "armor:iron_shield" : "file(entities/armor/iron_shield/iron_shield.json)",
+      "armor:iron_spirit_walker_helmet" : "file(entities/armor/iron_spirit_walker_helmet/iron_spirit_walker_helmet.json)",
+      "armor:hearth_guard_armor" : "file(entities/armor/hearth_guard_armor/hearth_guard_armor.json)",
+      "armor:hearth_guard_helmet" : "file(entities/armor/hearth_guard_helmet/hearth_guard_helmet.json)",
+      "armor:hearth_guard_helmet_light" : "file(entities/armor/hearth_guard_helmet_light/hearth_guard_helmet_light.json)",
+      "armor:hearth_guard_shield" : "file(entities/armor/hearth_guard_shield/hearth_guard_shield.json)",
+      "armor:horned_full_helmet" : "file(entities/armor/horned_full_helmet/horned_full_helmet.json)",
+      "armor:mushroom_shield" : "file(entities/armor/mushroom_shield/mushroom_shield.json)",
+      "armor:swamp_guard_armor" : "file(entities/armor/swamp_guard_armor/swamp_guard_armor.json)",
+      "armor:swamp_guard_helmet" : "file(entities/armor/swamp_guard_helmet/swamp_guard_helmet.json)",
+      "armor:swamp_guard_helmet_light" : "file(entities/armor/swamp_guard_helmet_light/swamp_guard_helmet_light.json)",
+      "armor:back_banner_generic" : "file(entities/armor/back_banner_generic/back_banner_generic.json)",
+      "armor:back_banner_skull" : "file(entities/armor/back_banner_skull/back_banner_skull.json)",
+      "armor:back_banner_varanus" : "file(entities/armor/back_banner_varanus/back_banner_varanus.json)",
+
+      "biome:floating_mountains": "file(data/biome/floating_mountains.json)",
+      
+      "buffs:essence_knowledge" : "file(data/buffs/essence_knowledge_buff/essence_knowledge_buff.json)",
+      "buffs:major_muscle_aura_buff" : "file(data/buffs/major_muscle_aura_buff/major_muscle_aura_buff.json)",
+      "buffs:major_muscle_aura_effect" : "file(data/buffs/major_muscle_aura_buff/major_muscle_aura_effect.json)",
+      "buffs:courage_aura_buff" : "file(data/buffs/courage_aura_buff/courage_aura_buff.json)",
+      "buffs:courage_aura_effect" : "file(data/buffs/courage_aura_buff/courage_aura_effect.json)",
+      "buffs:mix_aura_buff" : "file(data/buffs/mix_aura_buff/mix_aura_buff.json)",
+      "buffs:mix_aura_effect" : "file(data/buffs/mix_aura_buff/mix_aura_effect.json)",
+      
+      "containers:clay_corner" : "file(entities/containers/clay_corner)",
+      "containers:clay_supply_basin" : "file(entities/containers/clay_supply_basin)",
+      "containers:clay_shelf_ground" : "file(entities/containers/clay_shelf_ground)",
+      "containers:clay_shelf_wall" : "file(entities/containers/clay_shelf_wall)",
+      "containers:stone_supply_basin" : "file(entities/containers/stone_supply_basin)",
+      "containers:stone_shelf_ground" : "file(entities/containers/stone_shelf_ground)",
+      "containers:stone_shelf_wall" : "file(entities/containers/stone_shelf_wall)",
+      "containers:iron_corner" : "file(entities/containers/iron_corner)",
+      "containers:iron_supply_bin" : "file(entities/containers/iron_supply_bin)",
+      "containers:iron_table" : "file(entities/containers/iron_table)",
+      "containers:war_vault" : "file(entities/containers/war_vault)",
+
+      "construction:double_barricade_gate" : "file(entities/construction/double_barricade_gate/double_barricade_gate.json)",
+
+      "commands:dismantle" : "file(data/commands/dismantle/dismantle.json)",
+      
+      "decoration:alligator_small_totem" : "file(entities/decoration/alligator_small_totem)",
+      "decoration:armor_stand" : "file(entities/decoration/armor_stand)",
+      "decoration:bronze_armor_stand" : "file(entities/decoration/bronze_armor_stand)",
+      "decoration:banner_wall_big" : "file(entities/decoration/banner_wall_big)",
+      "decoration:candle_clay" : "file(entities/decoration/candle_clay)",
+      "decoration:clay_skull_brazier" : "file(entities/decoration/clay_skull_brazier)",
+      "decoration:clay_torch" : "file(entities/decoration/clay_torch)",
+      "decoration:clay_tower_brazier": "file(entities/decoration/clay_tower_brazier)",
+      "decoration:exquisite_rug": "file(entities/decoration/exquisite_rug)",
+      "decoration:fine_rug" : "file(entities/decoration/fine_rug)",
+      "decoration:hearth_guard_armor_stand" : "file(entities/decoration/hearth_guard_armor_stand)",
+      "decoration:hearth_guard_statue" : "file(entities/decoration/hearth_guard_statue)",
+      "decoration:serpent_totem" : "file(entities/decoration/serpent_totem)",
+      "decoration:skull_pole_banner" : "file(entities/decoration/skull_pole_banner)",
+      "decoration:stone_sign_barracks" : "file(entities/decoration/stone_sign_barracks)",
+      "decoration:stone_sign_warmaster" : "file(entities/decoration/stone_sign_warmaster)",
+      "decoration:stone_torch" : "file(entities/decoration/stone_torch)",
+      "decoration:swamp_guard_armor_stand" : "file(entities/decoration/swamp_guard_armor_stand)",
+      "decoration:swamp_guard_plaque" : "file(entities/decoration/swamp_guard_plaque)",
+      "decoration:swamp_guard_statue" : "file(entities/decoration/swamp_guard_statue)",
+      "decoration:wooden_sign_warmaster" : "file(entities/decoration/wooden_sign_warmaster)",
+      "decoration:wooden_sign_barracks" : "file(entities/decoration/wooden_sign_barracks)",
+      
+      "effects:fire" : "file(data/rigs/alligator_small_guardian/effects/fire.json)",
+      "effects:ghost_idle" : "file(data/rigs/alligator_small_guardian/effects/ghost_idle.json)",
+      "effects:idle" : "file(data/rigs/alligator_small_guardian/effects/idle.json)",
+      "effects:harvest_gizmo_overlay_effect": "file(data/effects/harvest_gizmo_overlay_effect)",
+      "effects:green_fire:wall_torch" : "file(data/effects/green_fire/wall_torch)",
+      
+      "furniture:decorated_clay_bed" : "file(entities/furniture/decorated_clay_bed)",
+      "furniture:clay_bench" : "file(entities/furniture/clay_bench)",
+      "furniture:clay_chair" : "file(entities/furniture/clay_chair)",
+      "furniture:clay_table" : "file(entities/furniture/clay_table)",
+      "furniture:clay_throne" : "file(entities/furniture/clay_throne)",
+      "furniture:comfy_clay_chair" : "file(entities/furniture/comfy_clay_chair)",
+      
+      "upgrades:essence_knowledge_tome" : "file(entities/upgrades/essence_knowledge_tome/essence_knowledge_tome.json)",
+      
+      "warfare:alligator_small_guardian" : "file(entities/warfare/alligator_small_guardian/alligator_small_guardian.json)",
+      "warfare:alligator_small_guardian_weapon" : "file(entities/warfare/alligator_small_guardian/alligator_small_guardian_weapon.json)",
+      "warfare:essence_core" : "file(entities/warfare/essence_core/essence_core.json)",
+      "warfare:iron_portcullis" : "file(entities/warfare/iron_portcullis/iron_portcullis.json)",
+      "warfare:wooden_portcullis" : "file(entities/warfare/wooden_portcullis/wooden_portcullis.json)",
+      "warfare:stronghold_double_door" : "file(entities/warfare/stronghold_double_door/stronghold_double_door.json)",
+      
+      "weapons:bone_axe" : "file(entities/weapons/bone_axe/bone_axe.json)",
+      "weapons:bronze_beast_tamer_claw" : "file(entities/weapons/bronze_beast_tamer_claw/bronze_beast_tamer_claw.json)",
+      "weapons:bone_sword" : "file(entities/weapons/bone_sword/bone_sword.json)",
+      "weapons:bronze_axe" :  "file(entities/weapons/bronze_axe/bronze_axe.json)",
+      "weapons:bronze_mace" :  "file(entities/weapons/bronze_mace/bronze_mace.json)",
+      "weapons:bronze_spear" : "file(entities/weapons/bronze_spear/bronze_spear.json)",
+      "weapons:bronze_sword":  "file(entities/weapons/bronze_sword/bronze_sword.json)",
+      "weapons:iron_axe" : "file(entities/weapons/iron_axe/iron_axe.json)",
+      "weapons:iron_beast_tamer_claw" : "file(entities/weapons/iron_beast_tamer_claw/iron_beast_tamer_claw.json)",
+      "weapons:iron_mace" : "file(entities/weapons/iron_mace/iron_mace.json)",
+      "weapons:iron_spear" : "file(entities/weapons/iron_spear/iron_spear.json)",
+      "weapons:iron_sword" : "file(entities/weapons/iron_sword/iron_sword.json)",
+      "weapons:steel_sword" : "file(entities/weapons/steel_sword/steel_sword.json)",
+      "weapons:war_fork" : "file(entities/weapons/war_fork/war_fork.json)",
+      "weapons:hearth_guard_bardiche" : "file(entities/weapons/hearth_guard_bardiche/hearth_guard_bardiche.json)"
+   },
+   "mixintos": {
+      "stonehearth:biome:index": "file(data/biome/index.json)",
+      "stonehearth:playable_kingdom_index": "file(data/moon_clan_playable_kingdom_index.json)",
+      "stonehearth/data/ui/start_menu.json" : "file(data/ui/start_menu.json)",
+      
+      "swamp_goblins/jobs/index.json" : "file(jobs/index.json)",
+      "swamp_goblins/jobs/bonesmith/recipes/recipes.json" : "file(jobs/bonesmith/recipes.json)",
+      "swamp_goblins/jobs/earthmaster/recipes/recipes.json" : "file(jobs/earthmaster/recipes.json)",
+      "swamp_goblins/jobs/shaman/recipes/recipes.json" : "file(jobs/shaman/recipes.json)",
+
+      "swamp_goblins/data/goblinpedia/goblinpedia.json": "file(data/goblinpedia/goblinpedia.json)",
+      
+      "moon_clan:armor:mushroom_shield" : "stonehearth_ace:mixins:armor:light_shield",
+      "moon_clan:armor:bronze_armor" : "stonehearth_ace:mixins:armor:medium_armor_torso",
+      "moon_clan:armor:bronze_pot_helmet" : "stonehearth_ace:mixins:armor:medium_armor_helmet",
+      "moon_clan:armor:swamp_guard_armor" : "stonehearth_ace:mixins:armor:medium_armor_torso",
+      "moon_clan:armor:swamp_guard_helmet" : "stonehearth_ace:mixins:armor:medium_armor_helmet",
+      "moon_clan:armor:swamp_guard_helmet_light" : "stonehearth_ace:mixins:armor:light_armor_helmet",
+      "moon_clan:armor:hearth_guard_armor" : "stonehearth_ace:mixins:armor:heavy_armor_torso",
+      "moon_clan:armor:hearth_guard_helmet" : "stonehearth_ace:mixins:armor:heavy_armor_helmet",
+      "moon_clan:armor:hearth_guard_helmet_light" : "stonehearth_ace:mixins:armor:medium_armor_helmet",
+      "moon_clan:armor:hearth_guard_shield" : "stonehearth_ace:mixins:armor:heavy_shield",
+      "moon_clan:armor:horned_full_helmet" : "stonehearth_ace:mixins:armor:heavy_armor_helmet",
+      
+      "moon_clan:weapons:bronze_axe" : "stonehearth_ace:mixins:weapons:twohanded_open_wounds_minor",
+      "moon_clan:weapons:bronze_mace" : "stonehearth_ace:mixins:weapons:mainhand_fracture_minor",
+      "moon_clan:weapons:bronze_sword" : "stonehearth_ace:mixins:weapons:mainhand_hamstrung_minor",
+      "moon_clan:weapons:bronze_spear" : "stonehearth_ace:mixins:weapons:twohanded_shaken_minor",
+      "moon_clan:weapons:iron_axe" : "stonehearth_ace:mixins:weapons:twohanded_open_wounds",
+      "moon_clan:weapons:iron_mace" : "stonehearth_ace:mixins:weapons:mainhand_fracture",
+      "moon_clan:weapons:iron_sword" : "stonehearth_ace:mixins:weapons:mainhand_hamstrung",
+      "moon_clan:weapons:iron_spear" : "stonehearth_ace:mixins:weapons:twohanded_shaken",
+      "moon_clan:weapons:steel_sword" : "stonehearth_ace:mixins:weapons:mainhand_hamstrung_major",
+      "moon_clan:weapons:war_fork" : "stonehearth_ace:mixins:weapons:twohanded_shaken_major",
+      "moon_clan:weapons:hearth_guard_bardiche" : "stonehearth_ace:mixins:weapons:twohanded_open_wounds_major",
+
+      "moon_clan:warmaster:forge" : "/stonehearth_ace/moon_clan/mixins/workbench_forge_warmaster.json"
+
+   },
+   "overrides": {
+      "stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json" : "moon_clan/data/moon_clan/animations/combat_1h_thrust.json",
+      "stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json" : "moon_clan/data/moon_clan/effects/combat_1h_thrust.json",
+      
+      "stonehearth_ace/moon_clan/horned_full_helmet_recipe.json" : "moon_clan/ace/recipes/armor/horned_full_helmet_recipe.json",
+      "stonehearth_ace/moon_clan/bone_axe_recipe.json" : "moon_clan/ace/recipes/weapons/bone_axe_recipe.json",
+      "stonehearth_ace/moon_clan/bone_sword_recipe.json" : "moon_clan/ace/recipes/weapons/bone_sword_recipe.json",
+      
+      "moon_clan/jobs/bonesmith/recipes/armor/horned_full_helmet_recipe.json" : "stonehearth_ace/moon_clan/horned_full_helmet_recipe.json",
+      "moon_clan/jobs/warmaster/recipes/weapons/bone_axe_recipe.json" : "stonehearth_ace/moon_clan/bone_axe_recipe.json",
+      "moon_clan/jobs/warmaster/recipes/weapons/bone_sword_recipe.json" : "stonehearth_ace/moon_clan/bone_sword_recipe.json",
+      
+      "moon_clan:furniture:decorated_clay_bed" : "swamp_goblins:furniture:clay:bed",
+      "moon_clan:furniture:decorated_clay_chair" : "swamp_goblins:furniture:clay:chair",
+
+      "moon_clan/ace/mixins/workbench_fuel/workbench_fuel_warmaster.json" : "stonehearth_ace/moon_clan/mixins/workbench_forge_warmaster.json"
+   },
+   "components": {},
+   "controllers": {
+      "class:warmaster": "file(jobs/warmaster/warmaster.lua)"
+   },
+   "ui": {
+      "less": [
+         "file(jobs/warmaster/skin/workshop.less)"
+      ]
+   }
+}

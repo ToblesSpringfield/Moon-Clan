@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(essence_knowledge_tome_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "none",
+         "slot": "accessory",
+         "ilevel": 5,
+         "roles": [
+            "warmaster_job"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "injected_buffs": [
+            "moon_clan:buffs:essence_knowledge"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.upgrades.essence_knowledge_tome.essence_knowledge_tome.display_name)",
+         "description": "i18n(moon_clan:entities.upgrades.essence_knowledge_tome.essence_knowledge_tome.description)",
+         "icon": "file(essence_knowledge_tome.png)"
+      }
+   }
+}

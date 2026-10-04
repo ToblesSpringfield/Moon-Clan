@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 30,
+	"work_units": 3,
+	"recipe_name": "Iron Sword",
+	"description": "A sword made of iron.",
+	"flavor": "The standard blade for any army",
+	"portrait": "/moon_clan/entities/weapons/iron_sword/iron_sword.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 3,
+	"ingredients": [
+	    {
+            "uri": "stonehearth:refined:iron_ingot",
+            "count": 2
+        },
+		{
+			"material": "wood resource",
+			"count": 1
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:iron_sword"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 32,
+	"work_units": 10,
+	"recipe_name": "Hearth Guard Helmet",
+	"description": "Hearth guard helmet made of steel",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/armor/hearth_guard_helmet/hearth_guard_helmet.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+			"material": "fiber resource",
+			"count": 1
+		},
+		{
+            "uri": "stonehearth:refined:steel_ingot",
+            "count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:hearth_guard_helmet"
+		}
+	]
+}

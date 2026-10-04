@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"work_units": 10,
+	"recipe_name": "Essence Knowledge Tome",
+	"description": "The magic and knowledge poured into this will certainly be of help when crafting.",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/upgrades/essence_knowledge_tome/essence_knowledge_tome.png",
+	"workshop": "swamp_goblins:shaman:workbench",
+	"work_effect": "fiddle",
+	"level_requirement": 6,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+			"material": "wood resource",
+			"count": 1
+		},
+		{
+			"material": "pelt resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:upgrades:essence_knowledge_tome"
+		}
+	]
+}

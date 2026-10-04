@@ -1,0 +1,67 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "accessory",
+            "transparent": "false",
+            "models": [
+               "file(back_banner_skull.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(back_banner_skull_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "accessory",
+         "render_type": "merge_with_model",
+         "postures": [
+            "stonehearth:combat",
+                "stonehearth:patrol",
+				"stonehearth:panic",
+				"stonehearth:climb_ladder_up",
+				"stonehearth:climb_ladder_down",
+				"stonehearth:carrying",
+				"stonehearth:relaxed"
+         ],
+         "ilevel": 21,
+         "required_job_level": 4,
+         "roles": [
+            "goblin_warrior_job"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "injected_buffs": [
+            "moon_clan:buffs:major_muscle_aura_buff"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 0
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.armor.back_banner_skull.back_banner_skull.display_name)",
+         "description": "i18n(moon_clan:entities.armor.back_banner_skull.back_banner_skull.description)",
+         "icon": "file(back_banner_skull.png)",
+         "category": "armor",
+         "material_tags": [
+            "firefly_made",
+            "wood",
+            "armor",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

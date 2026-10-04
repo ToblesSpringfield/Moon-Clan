@@ -1,0 +1,34 @@
+{
+	"type": "recipe",
+	"effort": 35,
+	"work_units": 10,
+	"recipe_name": "i18n(moon_clan:entities.decoration.skull_pole_banner.skull_pole_banner.display_name)",
+	"description": "i18n(moon_clan:entities.decoration.skull_pole_banner.skull_pole_banner.description)",
+	"flavor": "Will the skull scare away the guests?",
+	"portrait": "/moon_clan/entities/decoration/skull_pole_banner/skull_pole_banner.png",
+	"workshop": "swamp_goblins:bonesmith:weaving_table",
+	"level_requirement": 5,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+			"material": "stone resource",
+			"count": 1
+		},
+		{
+			"material": "wood resource",
+			"count": 2
+		},
+		{
+			"material": "fiber resource",
+			"count": 3
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:skull_pole_banner"
+		}
+	]
+}

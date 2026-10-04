@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 27,
+	"work_units": 3,
+	"recipe_name": "Bronze Spear",
+	"description": "A spear made of bronze.",
+	"flavor": "A slightly bigger step towards better weapons",
+	"portrait": "/moon_clan/entities/weapons/bronze_spear/bronze_spear.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+	    {
+            "uri": "stonehearth:refined:bronze_ingot",
+            "count": 2
+        },
+		{
+			"material": "wood resource",
+			"count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:bronze_spear"
+		}
+	]
+}

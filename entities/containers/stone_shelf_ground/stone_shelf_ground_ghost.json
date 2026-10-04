@@ -1,0 +1,32 @@
+{
+	"mixins": "stonehearth:mixins:placed_object",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(stone_shelf_ground.qb)"
+				]
+			}
+		},
+		"mob": {
+			"model_origin": { "x": 0, "y": 0, "z": 0 },
+			"region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+		},
+		"render_info": {
+			"scale": 0.1,
+			"animation_table": "/stonehearth/data/rigs/entities/containers/input_shelf/input_shelf.json"
+		},
+		"effect_list": {
+			"default": "/stonehearth/data/rigs/entities/containers/input_shelf/effects/idle.json"
+		}
+	},
+	"entity_data": {
+		"stonehearth:catalog": {
+			"display_name": "i18n(moon_clan:entities.containers.stone.shelf_ground.stone_shelf_ground_ghost.display_name)",
+			"description": "i18n(moon_clan:entities.containers.stone.shelf_ground.stone.shelf_ground_ghost.description)",
+			"icon": "file(stone_shelf_ground.png)",
+			"category": "storage",
+			"material_tags": ["firefly_made", "stone", "containers", "crafted", "furniture", "stockpile_furniture"]
+		}
+	}
+}

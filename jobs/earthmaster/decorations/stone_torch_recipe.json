@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 22,
+    "work_units": 10,
+    "recipe_name": "Stone Firebowl",
+    "description": "A wall mounted stone firebowl.",
+    "flavor": "A firebowl made of stone.",
+    "portrait": "/moon_clan/entities/decoration/stone_torch/stone_torch.png",
+    "workshop": "swamp_goblins:earthmaster:workbench",
+    "level_requirement": 3,
+    "ingredients": [
+        {
+            "material": "stone resource",
+            "count": 1
+        }
+    ],
+    "produces": [
+        {
+            "item": "moon_clan:decoration:stone_torch"
+        }  
+    ]
+}

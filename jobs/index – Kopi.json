@@ -1,0 +1,91 @@
+{
+	"mixins": "stonehearth:jobs:index",
+	"jobs": {
+		"stonehearth:jobs:archer": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:blacksmith": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:engineer": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:carpenter": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:cleric": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:cook": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:magmasmith": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:farmer": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:footman": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:geomancer": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:herbalist": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:knight": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:mason": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:potter": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:shepherd": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:trapper": {
+			"firefly_job": "shared"
+		},
+		"stonehearth:jobs:weaver": {
+			"firefly_job": "disabled"
+		},
+		"stonehearth:jobs:worker": {
+			"firefly_job": "shared"
+		},
+		"swamp_goblins:jobs:beast_tamer": {
+			"description": "swamp_goblins:jobs:beast_tamer",
+			"firefly_job": "shared"
+		},
+		"swamp_goblins:jobs:bonesmith": {
+			"description": "swamp_goblins:jobs:bonesmith",
+			"firefly_job":"exclusive"
+		},
+		"swamp_goblins:jobs:earthmaster": {
+			"description": "swamp_goblins:jobs:earthmaster",
+			"firefly_job":"exclusive"
+		},
+		"swamp_goblins:jobs:shaman": {
+			"description": "swamp_goblins:jobs:shaman",
+			"firefly_job":"exclusive"
+		},
+		"swamp_goblins:jobs:spirit_walker": {
+			"description": "swamp_goblins:jobs:spirit_walker",
+			"firefly_job":"exclusive"
+		},
+		"swamp_goblins:jobs:warrior": {
+			"description": "swamp_goblins:jobs:warrior",
+			"firefly_job":"exclusive"
+		},
+		"swamp_goblins:jobs:baby": {
+			"description": "swamp_goblins:jobs:baby",
+			"firefly_job":"exclusive",
+		},
+		"moon_clan:jobs:warmaster": {
+			"description": "moon_clan:jobs:warmaster",
+			"firefly_job":"exclusive"
+		}
+	}
+}

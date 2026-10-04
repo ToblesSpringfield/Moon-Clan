@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"work_units": 5,
+	"recipe_name": "Warmaster Hammer",
+	"description": "Used to promote a goblin into a Warmaster",
+	"flavor": "Hammer to hit hard things, to make other things",
+	"portrait": "/moon_clan/jobs/warmaster/warmaster_hammer/warmaster_hammer.png",
+	"workshop": "swamp_goblins:shaman:workbench",
+	"work_effect": "fiddle",
+	"level_requirement": 2,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+			"material": "stone resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:warmaster:talisman"
+		}
+	]
+}

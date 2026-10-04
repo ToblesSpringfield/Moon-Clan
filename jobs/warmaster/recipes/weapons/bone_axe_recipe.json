@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 20,
+	"work_units": 3,
+	"recipe_name": "Bone Axe",
+	"description": "An axe made out of bone.",
+	"flavor": "An interesting shape for a weapon",
+	"portrait": "/moon_clan/entities/weapons/bone_axe/bone_axe.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 1,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 1
+		},
+		{
+			"material": "wood resource",
+			"count": 1
+		},
+		{
+			"material": "stone resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:bone_axe"
+		}
+	]
+}

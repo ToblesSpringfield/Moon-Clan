@@ -1,0 +1,93 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/magic_material_map.json"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_sword_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_sword_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 23,
+         "roles": [
+            "goblin_warrior_job"
+         ],
+         "required_job_level": 5,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 20,
+         "reach": 1.75
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_backhand",
+            "effect": "combat_1h_backhand",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 2.5
+         },
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 2.0
+         }
+      ],
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "combat_1h_parry",
+            "effect": "combat_1h_parry",
+            "active_frame": 4,
+            "cooldown": 8000,
+            "priority": 0,
+            "chance_of_success": 0.65
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 48,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.weapons.steel_sword.steel_sword.display_name)",
+         "description": "i18n(moon_clan:entities.weapons.steel_sword.steel_sword.description)",
+         "icon": "file(steel_sword.png)",
+         "category": "weapons",
+         "material_tags": [
+            "firefly_made",
+            "steel",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

@@ -1,0 +1,46 @@
+{
+	"menu":{
+		"goblins":{
+			"items":{
+				"jobs":{
+					"items":{
+						"warmaster": {
+							"display_name":"i18n(moon_clan:ui.game.goblinpedia.menu.goblins.jobs.warmaster)",
+							"open_page_id":"jobs_warmaster"
+						}
+					}
+				}
+			}
+		}
+	},
+	"pages":{
+		"jobs_warmaster":{
+			"page_id":"jobs_warmaster",
+			"title":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.title)",
+			"image":"/moon_clan/jobs/warmaster/images/icon.png",
+			"descriptions":{
+				"desc1":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.description1)"
+			},
+			"topics":{
+				"topic1":{
+					"title":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.topic1.title)",
+					"descriptions":{
+						"desc1":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.topic1.desc1)"
+					}
+				},
+				"topic2":{
+					"title":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.topic2.title)",
+					"descriptions":{
+						"desc1":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.topic2.desc1)"
+					}
+				},
+				"topic3":{
+					"title":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.topic3.title)",
+					"descriptions":{
+						"desc1":"i18n(moon_clan:ui.game.goblinpedia.pages.jobs.warmaster.topic3.desc1)"
+					}
+				}
+			}
+		}
+	}
+}

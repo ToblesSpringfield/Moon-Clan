@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 75,
+   "work_units": 10,
+   "recipe_name": "Small Alligator Guardian (WIP)",
+   "description": "A small magical turret to guard the clan.",
+   "flavor": "",
+   "portrait": "/moon_clan/entities/warfare/alligator_small_guardian/alligator_small_guardian.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "moon_clan:warfare:essence_core",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:warfare:alligator_small_guardian"
+      }
+   ]
+}

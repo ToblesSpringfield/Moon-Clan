@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 25,
+	"work_units": 5,
+	"recipe_name": "Bronze Cooking Pot Helmet",
+	"description": "A helmet made out of a bronze cooking pot.",
+	"flavor": "This is what it was meant for, right?",
+	"portrait": "/moon_clan/entities/armor/bronze_pot_helmet/bronze_pot_helmet.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+		{
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:bronze_pot_helmet"
+		}
+	]
+}

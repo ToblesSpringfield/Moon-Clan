@@ -1,0 +1,38 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:portals:double_door:ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "mob": {
+         "align_to_grid": [
+            "x"
+         ],
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0.5 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(barricade_gate.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.construction.barricade_gate.barricade_gate.display_name)",
+         "description": "i18n(moon_clan:entities.construction.barricade_gate.barricade_gate.description)",
+         "icon": "file(barricade_gate.png)",
+         "category": "door",
+         "material_tags": [
+            "wood",
+            "portal",
+            "crafted",
+            "door",
+            "stockpile_portal"
+         ]
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+    "jobs": {
+        "moon_clan:jobs:warmaster": {
+            "description": "moon_clan:jobs:warmaster",
+            "firefly_job":"exclusive"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"type": "recipe",
+	"work_units": 3,
+	"recipe_name": "Stone Barracks Sign",
+	"description": "The stone version of the barracks sign.",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/decoration/stone_sign_barracks/stone_sign_barracks.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"work_effect": "work",
+	"ingredients": [
+		{
+			"material": "stone resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:stone_sign_barracks"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 25,
+	"work_units": 3,
+	"recipe_name": "Bronze Sword",
+	"description": "A sword made of bronze.",
+	"flavor": "A baby step towards better weapons",
+	"portrait": "/moon_clan/entities/weapons/bronze_sword/bronze_sword.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+	    {
+            "uri": "stonehearth:refined:bronze_ingot",
+            "count": 2
+        },
+		{
+			"material": "wood resource",
+			"count": 1
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:bronze_sword"
+		}
+	]
+}

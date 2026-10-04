@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 18,
+   "work_units": 5,
+   "recipe_name": "i18n(moon_clan:entities.containers.iron_supply_bin.iron_supply_bin_ghost.display_name)",
+   "description": "i18n(moon_clan:entities.containers.iron_supply_bin.iron_supply_bin_ghost.description)",
+   "flavor": "",
+   "portrait": "/moon_clan/entities/containers/iron_supply_bin/iron_supply_bin.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:containers:iron_supply_bin"
+      }
+   ]
+}

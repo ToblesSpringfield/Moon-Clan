@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 55,
+   "work_units": 10,
+   "recipe_name": "i18n(moon_clan:entities.construction.wooden_portcullis.wooden_portcullis.display_name)",
+   "description": "i18n(moon_clan:entities.construction.wooden_portcullis.wooden_portcullis.description)",
+   "flavor": "This keeps them out, right?",
+   "portrait": "/moon_clan/entities/warfare/wooden_portcullis/wooden_portcullis.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 1
+	  },
+	  {
+         "material": "fiber resource",
+         "count": 4
+      },
+      {
+         "material": "wood resource",
+         "count": 6
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:warfare:wooden_portcullis"
+      }
+   ]
+}

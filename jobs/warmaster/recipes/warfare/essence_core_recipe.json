@@ -1,0 +1,28 @@
+{
+	"type": "recipe",
+	"effort": 62,
+	"work_units": 8,
+	"recipe_name": "Essence Core (WIP)",
+	"description": "The magic and knowledge poured into this will certainly be of help.",
+	"flavor": "Maybe this can go boom too?",
+	"portrait": "/moon_clan/entities/warfare/essence_core/essence_core.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"work_effect": "work",
+	"level_requirement": 5,
+	"manual_unlock": true,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+			"material": "ore resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:warfare:essence_core"
+		}
+	]
+}

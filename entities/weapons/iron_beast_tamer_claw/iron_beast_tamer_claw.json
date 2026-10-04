@@ -1,0 +1,76 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(iron_beast_tamer_claw.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(iron_beast_tamer_claw_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 10,
+         "roles": [
+            "goblin_beast_tamer_job"
+         ],
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 14,
+         "range": 30,
+         "reach": 2
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         },
+         {
+            "name": "combat_1h_backhand",
+            "effect": "combat_1h_backhand",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 19,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.weapons.iron_beast_tamer_claw.iron_beast_tamer_claw.display_name)",
+         "description": "i18n(moon_clan:entities.weapons.iron_beast_tamer_claw.iron_beast_tamer_claw.description)",
+         "icon": "file(iron_beast_tamer_claw.png)",
+         "category": "weapons",
+         "material_tags": [
+            "firefly_made",
+            "iron",
+            "crafted",
+            "tool",
+            "melee_weapon",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

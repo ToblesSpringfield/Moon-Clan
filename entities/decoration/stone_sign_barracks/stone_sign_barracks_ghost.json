@@ -1,0 +1,22 @@
+{
+   "mixins": [
+      "swamp_goblins:mixins:sign:stone_ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_sign_barracks.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.stone_sign_barracks.stone_sign_barracks.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.stone_sign_barracks.stone_sign_barracks.display_name)",
+         "icon": "file(stone_sign_barracks.png)"
+      }
+   }
+}

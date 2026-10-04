@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 13,
+   "work_units": 5,
+   "recipe_name": "Decorated Clay Shelf",
+   "description": "Can hold 12 items.",
+   "flavor": "Sometimes small goblins need a chair to reach this",
+   "portrait": "/moon_clan/entities/containers/clay_shelf_wall/clay_shelf_wall.png",
+   "workshop": "swamp_goblins:earthmaster:potter_workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:containers:clay_shelf_wall"
+      }
+   ]
+}

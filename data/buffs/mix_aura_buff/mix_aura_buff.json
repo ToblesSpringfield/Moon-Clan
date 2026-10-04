@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(moon_clan:data.buffs.mix_aura_buff.display_name)",
+   "description": "i18n(moon_clan:data.buffs.mix_buff.description)",
+   "icon": "file(mix_aura_buff.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "10m",
+      "aura_buff": "moon_clan:buffs:mix_aura_effect",
+      "radius": 20,
+      "affect_self": false,
+      "pulse_immediately": true,
+      "target_type": "mob"
+   }
+}

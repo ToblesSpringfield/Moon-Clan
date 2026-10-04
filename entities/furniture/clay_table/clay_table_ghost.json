@@ -1,0 +1,33 @@
+{
+	"mixins": "stonehearth:mixins:placed_object",
+	"type": "entity",
+	"components": {
+	"render_info": {
+			"scale": 0.12,
+			"color_map": "stonehearth:color_map:magic",
+			"material_maps": [
+				"/stonehearth/data/materials/material_maps/magic_material_map.json"
+			]
+		},
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(clay_table.qb)"
+				]
+			}
+		},
+		"mob": {
+			"model_origin": { "x": 0, "y": 0, "z": 0 },
+			"region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+		}
+	},
+	"entity_data": {
+		"stonehearth:catalog": {
+			"display_name": "i18n(moon_clan:entities.decoration.clay_table.clay_table_ghost.display_name)",
+			"description": "i18n(moon_clan:entities.decoration.clay_table.clay_table_ghost.description)",
+			"icon": "file(clay_table.png)",
+			"category": "furniture",
+			"material_tags": ["firefly_made", "clay", "furniture", "crafted", "stockpile_furniture"]
+		}
+	}
+}

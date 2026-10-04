@@ -1,0 +1,21 @@
+{
+	"type": "recipe",
+	"work_units": 3,
+	"recipe_name": "Warmaster warmaster Sign",
+	"description": "The stone version of the warmaster sign.",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/decoration/stone_sign_warmaster/stone_sign_warmaster.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"work_effect": "work",
+	"ingredients": [
+		{
+			"material": "stone resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:stone_sign_warmaster"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 35,
+	"work_units": 10,
+	"recipe_name": "i18n(moon_clan:entities.decoration.banner_wall_big.display_name)",
+	"description": "i18n(moon_clan:entities.decoration.banner_wall_big.description)",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/decoration/banner_wall_big/banner_wall_big.png",
+	"workshop": "swamp_goblins:bonesmith:weaving_table",
+	"level_requirement": 5,
+	"ingredients": [
+		{
+			"material": "wood resource",
+			"count": 2
+		},
+		{
+			"material": "fiber resource",
+			"count": 3
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:banner_wall_big"
+		}
+	]
+}

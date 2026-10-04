@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 13,
+   "work_units": 5,
+   "recipe_name": "Stone Shelf",
+   "description": "Can hold 12 items.",
+   "flavor": "You need a ladder?",
+   "portrait": "/moon_clan/entities/containers/stone_shelf_wall/stone_shelf_wall.png",
+   "workshop": "swamp_goblins:earthmaster:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:containers:stone_shelf_wall"
+      }
+   ]
+}

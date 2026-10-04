@@ -1,0 +1,24 @@
+{
+	"type": "recipe",
+	"work_units": 3,
+	"recipe_name": "Wooden Barracks Sign",
+	"description": "Wooden version of the Barracks sign",
+	"flavor": "To tell the troops where to sleep",
+	"portrait": "/moon_clan/entities/decoration/wooden_sign_barracks/wooden_sign_barracks.png",
+	"workshop": "swamp_goblins:bonesmith:workbench",
+	"ingredients": [
+		{
+			"material": "wood resource",
+			"count": 1
+		},
+		{
+			"material": "fiber resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:wooden_sign_barracks"
+		}
+	]
+}

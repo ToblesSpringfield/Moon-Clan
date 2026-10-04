@@ -1,0 +1,83 @@
+{
+	"craftable_recipes": {
+		"goblin_furnitures": {
+			"recipes":{
+			    "clay_bench": {
+					"recipe": "file(furniture/clay_bench_recipe.json)"
+				},
+				"clay_chair": {
+					"recipe": "file(furniture/clay_chair_recipe.json)"
+				},
+				"clay_table": {
+					"recipe": "file(furniture/clay_table_recipe.json)"
+				},
+				"clay_throne": {
+					"recipe": "file(furniture/clay_throne_recipe.json)"
+				}
+			}
+		},
+	"goblin_storage": {
+			"recipes":{
+			    "clay_corner": {
+					"recipe": "file(containers/clay_corner_recipe.json)"
+				},
+				"clay_supply_basin": {
+					"recipe": "file(containers/clay_supply_basin_recipe.json)"
+				},
+				"clay_shelf_wall": {
+					"recipe": "file(containers/clay_shelf_wall_recipe.json)"
+				},
+				"clay_shelf_ground": {
+					"recipe": "file(containers/clay_shelf_ground_recipe.json)"
+				},
+				"stone_supply_basin": {
+					"recipe": "file(containers/stone_supply_basin_recipe.json)"
+				},
+				"stone_shelf_wall": {
+					"recipe": "file(containers/stone_shelf_wall_recipe.json)"
+				},
+				"stone_shelf_ground": {
+					"recipe": "file(containers/stone_shelf_ground_recipe.json)"
+				}
+			}
+		},
+		"goblin_decorations": {
+			"recipes":{
+			    "candle_clay": {
+					"recipe": "file(decorations/candle_clay_recipe.json)"
+				},
+				"clay_torch": {
+					"recipe": "file(decorations/clay_torch_recipe.json)"
+				},
+				"clay_skull_brazier": {
+					"recipe": "file(decorations/clay_skull_brazier_recipe.json)"
+				},
+				"clay_tower_brazier": {
+					"recipe": "file(decorations/clay_tower_brazier_recipe.json)"
+				},
+				"swamp_guard_statue": {
+					"recipe": "file(decorations/swamp_guard_statue_recipe.json)"
+				},
+				"hearth_guard_statue": {
+					"recipe": "file(decorations/hearth_guard_statue_recipe.json)"
+				},
+				"serpent_totem": {
+					"recipe": "file(decorations/serpent_totem_recipe.json)"
+				},
+				"stone_torch": {
+					"recipe": "file(decorations/stone_torch_recipe.json)"
+				}
+			}
+		},
+		"goblin_stone_signs": {
+			"recipes": {
+			    "stone_sign_barracks": {
+					"recipe": "file(signs/stone_sign_barracks_recipe.json)"
+				},
+				"stone_sign_warmaster": {
+					"recipe": "file(signs/stone_sign_warmaster_recipe.json)"
+				}
+			}
+		}
+	}
+}

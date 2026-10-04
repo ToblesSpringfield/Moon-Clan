@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 22,
+	"work_units": 3,
+	"recipe_name": "Bronze Claws",
+	"description": "An upgrade for the beast tamer.",
+	"flavor": "A bit sharper than bone, but probably less durable ",
+	"portrait": "/moon_clan/entities/weapons/bronze_beast_tamer_claw/bronze_beast_tamer_claw.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 1
+		},
+		{
+            "uri": "stonehearth:refined:bronze_ingot",
+            "count": 1
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:bronze_beast_tamer_claw"
+		}
+	]
+}

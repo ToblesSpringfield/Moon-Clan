@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "Decorated Clay Corner Shelf",
+   "description": "Can hold 12 items.",
+   "flavor": "Things quickly get messy in a workshop, needed for less mess",
+   "portrait": "/moon_clan/entities/containers/clay_corner/clay_corner.png",
+   "workshop": "swamp_goblins:earthmaster:potter_workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:containers:clay_corner"
+      }
+   ]
+}

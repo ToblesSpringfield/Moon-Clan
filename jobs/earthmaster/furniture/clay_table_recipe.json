@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 22,
+	"work_units": 5,
+	"recipe_name": "Decorated Clay Table",
+	"description": "A patterned clay table.",
+	"flavor": "Neat skulls to show how badass we are",
+	"portrait": "/moon_clan/entities/furniture/clay_table/clay_table.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+			"material": "clay resource",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:furniture:clay_table"
+		}
+	]
+}

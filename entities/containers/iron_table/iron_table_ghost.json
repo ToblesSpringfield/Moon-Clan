@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(iron_table.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.5, "y": 0, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.1,
+         "animation_table": "/stonehearth/data/rigs/entities/containers/input_table/input_table.json"
+      },
+      "effect_list": {
+         "default": "/stonehearth/data/rigs/entities/containers/input_table/effects/idle.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.containers.iron_table.iron_table_ghost.display_name)",
+         "description": "i18n(moon_clan:entities.containers.iron_table.iron_table_ghost.description)",
+         "icon": "file(iron_table.png)",
+         "category": "storage",
+         "material_tags": ["iron", "containers", "crafted", "furniture", "stockpile_furniture"]
+      }
+   }
+}

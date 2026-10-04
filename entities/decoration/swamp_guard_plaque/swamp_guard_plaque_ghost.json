@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(swamp_guard_plaque.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.2, "y": 0, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.1
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.swamp_guard_plaque.swamp_guard_plaque.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.swamp_guard_plaque.swamp_guard_plaque.description)",
+         "icon": "file(swamp_guard_plaque.png)",
+         "category": "decoration",
+         "material_tags": [
+            "iron",
+            "crafted",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

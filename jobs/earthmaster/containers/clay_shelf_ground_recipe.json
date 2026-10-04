@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "Decorated Clay Ground Shelf",
+   "description": "Can hold 12 items.",
+   "flavor": "Don't scuff the white with your dirty feet",
+   "portrait": "/moon_clan/entities/containers/clay_shelf_ground/clay_shelf_ground.png",
+   "workshop": "swamp_goblins:earthmaster:potter_workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:containers:clay_shelf_ground"
+      }
+   ]
+}

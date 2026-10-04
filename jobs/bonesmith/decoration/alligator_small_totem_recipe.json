@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 38,
+	"work_units": 10,
+	"recipe_name": "i18n(moon_clan:entities.decoration.alligator_small_totem.alligator_small_totem.display_name)",
+	"description": "i18n(moon_clan:entities.decoration.alligator_small_totem.alligator_small_totem.description)",
+	"flavor": "Paying homage to the old god",
+	"portrait": "/moon_clan/entities/decoration/alligator_small_totem/alligator_small_totem.png",
+	"workshop": "swamp_goblins:bonesmith:workbench",
+	"level_requirement": 5,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+			"material": "wood resource",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:alligator_small_totem"
+		}
+	]
+}

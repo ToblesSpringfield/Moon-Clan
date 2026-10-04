@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 26,
+	"work_units": 5,
+	"recipe_name": "Light Swamp Guard Helmet",
+	"description": "A light version of the swamp guard helmet made of iron.",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/armor/swamp_guard_helmet_light/swamp_guard_helmet_light.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 3,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 1
+		},
+		{
+            "uri": "stonehearth:refined:iron_ingot",
+            "count": 1
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:swamp_guard_helmet_light"
+		}
+	]
+}

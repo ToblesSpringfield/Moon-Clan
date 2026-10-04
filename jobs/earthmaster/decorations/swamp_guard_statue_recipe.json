@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 20,
+   "recipe_name": "Swamp Guard Statue",
+   "description": "A statue of a swamp guard.",
+   "flavor": "",
+   "portrait": "/moon_clan/entities/decoration/swamp_guard_statue/swamp_guard_statue.png",
+   "workshop": "swamp_goblins:earthmaster:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+        {
+            "material": "stone resource",
+            "count": 6
+        },
+	    {
+			"material": "wood resource",
+			"count": 2
+		},
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:decoration:swamp_guard_statue"
+      }
+   ]
+}

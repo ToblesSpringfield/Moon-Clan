@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 38,
+	"work_units": 3,
+	"recipe_name": "Hearth Guard Bardiche",
+	"description": "A two handed bardiche made of steel with an embedded jewel.",
+	"flavor": "The last piece to finish a full hearth guard set",
+	"portrait": "/moon_clan/entities/weapons/hearth_guard_bardiche/hearth_guard_bardiche.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 5,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+            "uri": "stonehearth:refined:steel_ingot",
+            "count": 2
+        },
+		{
+			"material": "wood resource",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:hearth_guard_bardiche"
+		}
+	]
+}

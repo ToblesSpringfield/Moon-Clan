@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+    "components": {
+        "render_info": {
+         "scale": 0.1
+        },
+        "model_variants": {
+         "default": {
+            "models": [
+               "file(war_vault.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "allow_vertical_adjacent": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.containers.war_vault.war_vault_ghost.display_name)",
+         "description": "i18n(moon_clan:entities.containers.war_vault.war_vault_ghost.description)",
+         "icon": "file(war_vault.png)",
+         "category": "storage",
+         "material_tags": ["metal", "furniture", "crafted", "crate", "stockpile_furniture"]
+      }
+   }
+}

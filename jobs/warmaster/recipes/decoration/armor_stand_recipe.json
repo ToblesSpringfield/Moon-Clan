@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 20,
+	"work_units": 5,
+	"recipe_name": "Armor Stand",
+	"description": "Can be a statue, but also used in crafting.",
+	"flavor": "Issa me!",
+	"portrait": "/moon_clan/entities/decoration/armor_stand/armor_stand.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 1,
+	"ingredients": [
+		{
+			"material": "wood resource",
+			"count": 3
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:armor_stand"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.15,
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/magic_material_map.json"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(warmaster_workbench.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.warsmith.warsmith_workbench.display_name)",
+         "description": "i18n(moon_clan:entities.warsmith.warsmith_workbench.description)",
+         "icon": "file(warmaster_workbench.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool"
+         ]
+      }
+   }
+}

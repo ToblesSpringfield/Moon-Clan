@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.03
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(serpent_totem.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(serpent_totem.png)",
+         "is_item": true,
+         "category": "decoration"
+      }
+   }
+}

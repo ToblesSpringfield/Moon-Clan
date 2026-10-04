@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 35,
+	"work_units": 5,
+	"recipe_name": "Decorated Clay Chair",
+	"description": "A clay chair to sit on.",
+	"flavor": "A little something to sit on for lunch",
+	"portrait": "/moon_clan/entities/furniture/clay_chair/clay_chair.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+			"material": "clay resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:furniture:clay_chair"
+		}
+	]
+}

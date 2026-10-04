@@ -1,0 +1,202 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 10,
+         "name": "Workbenches",
+         "recipes": {
+            "warmaster_workbench": {
+                "recipe": "file(workbench/warmaster_workbench_recipe.json)"
+            },
+            "warmaster_forge": {
+                "recipe": "file(workbench/warmaster_forge_recipe.json)"
+            }
+        }
+    },
+	  "storage": {
+	     "ordinal": 20,
+		 "name": "Containers",
+		 "recipes": {
+		    "iron_supply_bin": {
+			    "recipe": "file(containers/iron_supply_bin_recipe.json)"
+			},
+			"iron_table": {
+			    "recipe": "file(containers/iron_table_recipe.json)"
+			},
+			"iron_corner": {
+			    "recipe": "file(containers/iron_corner_recipe.json)"
+		    },
+			"war_vault": {
+			    "recipe": "file(containers/war_vault_recipe.json)"
+			}
+		}
+	},
+	  "smelt": {
+         "ordinal": 30,
+         "name": "Smelting",
+         "recipes": {
+            "copper_ingot": {
+               "recipe": "/moon_clan/jobs/warmaster/recipes/materials/copper_ingot_recipe.json"
+            },
+            "tin_ingot": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/tin_ingot_recipe.json"
+            },
+            "bronze_ingot": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/bronze_ingot_recipe.json"
+            },
+            "iron_ingot": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/iron_ingot_recipe.json"
+            },
+			"steel_ingot": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/steel_ingot_recipe.json"
+            },
+            "gold_ingot": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/gold_ingot_recipe.json"
+            },
+			"gold_flakes": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/gold_flakes_recipe.json"
+            },
+			"gold_flakes_times_three": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/gold_flakes_times_three_recipe.json"
+            }
+		}
+    },
+      "weapons": {
+         "ordinal": 40,
+         "name": "Weapons",
+         "recipes": {
+            "bone_sword": {
+                "recipe": "file(weapons/bone_sword_recipe.json)"
+            },
+            "bone_axe": {
+                "recipe": "file(weapons/bone_axe_recipe.json)"
+            },
+			"bronze_claws": {
+                "recipe": "file(weapons/bronze_beast_tamer_claw_recipe.json)"
+            },
+			"bronze_spear": {
+                "recipe": "file(weapons/bronze_spear_recipe.json)"
+            },
+			"bronze_sword": {
+                "recipe": "file(weapons/bronze_sword_recipe.json)"
+            },
+            "bronze_mace": {
+                "recipe": "file(weapons/bronze_mace_recipe.json)"
+            },
+            "bronze_axe": {
+                "recipe": "file(weapons/bronze_axe_recipe.json)"
+            },
+			"iron_claws": {
+                "recipe": "file(weapons/iron_beast_tamer_claw_recipe.json)"
+            },
+            "iron_spear": {
+                "recipe": "file(weapons/iron_spear_recipe.json)"
+            },
+			"iron_sword": {
+                "recipe": "file(weapons/iron_sword_recipe.json)"
+            },
+            "iron_mace": {
+                "recipe": "file(weapons/iron_mace_recipe.json)"
+            },
+            "iron_axe": {
+                "recipe": "file(weapons/iron_axe_recipe.json)"
+            },
+			"steel_sword": {
+                "recipe": "file(weapons/steel_sword_recipe.json)"
+            },
+			"war_fork": {
+                "recipe": "file(weapons/war_fork_recipe.json)"
+            },
+			"hearth_guard_bardiche": {
+                "recipe": "file(weapons/hearth_guard_bardiche_recipe.json)"
+            }
+        }
+    },
+      "armor": {
+         "ordinal": 50,
+         "name": "Armor",
+         "recipes": {
+		    "bronze_armor": {
+                "recipe": "file(armor/bronze_armor_recipe.json)"
+            },
+		    "bronze_pot_helmet": {
+                "recipe": "file(armor/bronze_pot_helmet_recipe.json)"
+            },
+			"bronze_shield": {
+                "recipe": "file(armor/bronze_shield_recipe.json)"
+            },
+			"bronze_spirit_walker_helmet": {
+                "recipe": "file(armor/bronze_spirit_walker_helmet_recipe.json)"
+            },
+			"iron_shield": {
+                "recipe": "file(armor/iron_shield_recipe.json)"
+            },
+			"iron_spirit_walker_helmet": {
+                "recipe": "file(armor/iron_spirit_walker_helmet_recipe.json)"
+            },
+            "mushroom_shield": {
+                "recipe": "file(armor/mushroom_shield_recipe.json)"
+			},
+			"swamp_guard_armor": {
+                "recipe": "file(armor/swamp_guard_armor_recipe.json)"
+            },
+			"swamp_guard_helmet": {
+                "recipe": "file(armor/swamp_guard_helmet_recipe.json)"
+            },
+			"swamp_guard_helmet_light": {
+                "recipe": "file(armor/swamp_guard_helmet_light_recipe.json)"
+            },
+			"hearth_guard_armor": {
+                "recipe": "file(armor/hearth_guard_armor_recipe.json)"
+            },
+			"hearth_guard_helmet": {
+               "recipe": "file(armor/hearth_guard_helmet_recipe.json)"
+            },
+			"hearth_guard_helmet_light": {
+               "recipe": "file(armor/hearth_guard_helmet_light_recipe.json)"
+            },
+			"hearth_guard_shield": {
+               "recipe": "file(armor/hearth_guard_shield_recipe.json)"
+            }
+		}
+	},
+	"warfare": {
+	     "ordinal": 60,
+		 "name": "Warfare",
+		 "recipes": {
+		    "alligator_small_guardian": {
+			    "recipe": "file(warfare/alligator_small_guardian_recipe.json)"
+			},
+			"essence_core": {
+			    "recipe": "file(warfare/essence_core_recipe.json)"
+			},
+			"iron_portcullis": {
+			    "recipe": "file(warfare/iron_portcullis_recipe.json)"
+			},
+			"stronghold_double_door": {
+			    "recipe": "file(warfare/stronghold_double_door_recipe.json)"
+			},
+			"wooden_portcullis": {
+			    "recipe": "file(warfare/wooden_portcullis_recipe.json)"
+			}
+		}
+	},
+	    "decoration": {
+	        "ordinal": 70,
+		    "name": "Decoration",
+		    "recipes": {
+		    	"armor_stand": {
+                    "recipe": "file(decoration/armor_stand_recipe.json)"
+                },
+		    	"bronze_armor_stand": {
+                    "recipe": "file(decoration/bronze_armor_stand_recipe.json)"
+                },
+			    "swamp_guard_armor_stand": {
+                    "recipe": "file(decoration/swamp_guard_armor_stand_recipe.json)"
+                },
+			    "hearth_guard_armor_stand": {
+                    "recipe": "file(decoration/hearth_guard_armor_stand_recipe.json)"
+                }
+		    }
+		}
+    }
+}

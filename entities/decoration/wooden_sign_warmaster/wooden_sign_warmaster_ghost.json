@@ -1,0 +1,22 @@
+{
+   "mixins": [
+      "swamp_goblins:mixins:sign:wood_ghost",
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wooden_sign_warmaster.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.wooden_sign_warmaster.wooden_sign_warmaster.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.wooden_sign_warmaster.wooden_sign_warmaster.description)",
+         "icon": "file(wooden_sign_warmaster.png)"
+      }
+   }
+}

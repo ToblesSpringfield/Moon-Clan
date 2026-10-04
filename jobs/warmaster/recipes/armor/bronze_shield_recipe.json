@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "Bronze Shield",
+   "description": "A shield made of bronze.",
+   "flavor": "Now we're getting somewhere!",
+   "portrait": "/moon_clan/entities/armor/bronze_shield/bronze_shield.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+        {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 1
+        },
+		{
+		"material": "wood resource",
+		"count": 1
+        }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:armor:bronze_shield"
+      }
+   ]
+}

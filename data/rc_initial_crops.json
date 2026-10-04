@@ -1,0 +1,14 @@
+{
+   "crops_by_kingdom": {
+      "rayyas_children:kingdoms:rayyas_children": {
+         "fallow": true,
+         "carrot": true,
+         "golden_gourd": true,
+         "watermelon": true,
+         "cactus_flower": true,
+         "corn": true,
+         "acacia_tree": true,
+         "cactus_tree": true
+      }
+   }
+}

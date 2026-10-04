@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 55,
+	"work_units": 5,
+	"recipe_name": "Decorated Clay Throne",
+	"description": "A clay throne built to show prosperity.",
+	"flavor": "Look at me, I'm the cheiftian now",
+	"portrait": "/moon_clan/entities/furniture/clay_throne/clay_throne.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"level_requirement": 6,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 2
+		},
+		{
+			"material": "clay resource",
+			"count": 3
+		},
+		{
+			"material": "fiber resource",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:furniture:clay_throne"
+		}
+	]
+}

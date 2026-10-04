@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(warmaster_outfit.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 1
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.warsmith.warsmith_outfit.display_name)",
+         "description": "i18n(moon_clan:entities.warsmith.warsmith_outfit.description)",
+         "icon": "file(warmaster_outfit.png)",
+         "material_tags": [
+            "firefly_made",
+            "cloth"
+         ]
+      }
+   }
+}

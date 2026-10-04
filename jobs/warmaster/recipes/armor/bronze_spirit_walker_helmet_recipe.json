@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 22,
+	"work_units": 5,
+	"recipe_name": "Bronze Spirit Walker Helmet",
+	"description": "An upgrade for the spirit walker.",
+	"flavor": "Made out of lifeless bronze, but it should protect a bit better",
+	"portrait": "/moon_clan/entities/armor/bronze_spirit_walker_helmet/bronze_spirit_walker_helmet.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 1
+		},
+		{
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:bronze_spirit_walker_helmet"
+		}
+	]
+}

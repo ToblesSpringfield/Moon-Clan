@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(clay_torch.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0.2, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.13
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.clay_torch.clay_torch.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.clay_torch.clay_torch.description)",
+         "icon": "file(clay_torch.png)",
+         "category": "decoration",
+         "material_tags": [
+            "light_source",
+            "crafted",
+            "clay",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

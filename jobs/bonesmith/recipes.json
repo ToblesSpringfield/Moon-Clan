@@ -1,0 +1,56 @@
+{
+	"craftable_recipes": {
+		"goblin_clothing_armor": {
+			"recipes": {
+			    "back_banner_generic": {
+					"recipe": "file(armor/back_banner_generic_recipe.json)"
+				},
+				"back_banner_skull": {
+					"recipe": "file(armor/back_banner_skull_recipe.json)"
+				},
+				"back_banner_varanus": {
+					"recipe": "file(armor/back_banner_varanus_recipe.json)"
+				},
+				"horned_full_helmet": {
+					"recipe": "file(armor/horned_full_helmet_recipe.json)"
+				}
+			}
+		},
+		"goblin_decorations": {
+			"recipes":{
+				"skull_pole_banner": {
+					"recipe": "file(decoration/skull_pole_banner_recipe.json)"
+				},
+				"banner_wall_big": {
+					"recipe": "file(decoration/banner_wall_big_recipe.json)"
+				},
+				"alligator_small_totem": {
+					"recipe": "file(decoration/alligator_small_totem_recipe.json)"
+				},
+				"exquisite_rug": {
+					"recipe": "file(decoration/exquisite_rug_recipe.json)"
+				},
+				"fine_rug": {
+					"recipe": "file(decoration/fine_rug_recipe.json)"
+				},
+			}
+		},
+		"goblin_construction": {
+			"recipes":{
+				"double_barricade_gate": {
+					"recipe": "file(construction/double_barricade_gate_recipe.json)"
+				}
+			}
+		},
+		"signs": {
+			"recipes": {
+			    "warmaster_sign": {
+                    "recipe": "file(signs/wooden_sign_warmaster_recipe.json)"
+				},
+				"barracks_sign": {
+                    "recipe": "file(signs/wooden_sign_barracks_recipe.json)"
+				}
+			}
+		}
+	}
+}

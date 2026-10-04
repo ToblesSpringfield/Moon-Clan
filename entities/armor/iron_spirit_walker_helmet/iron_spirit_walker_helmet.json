@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/magic_material_map.json"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(iron_spirit_walker_helmet.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(iron_spirit_walker_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 10,
+         "required_job_level": 5,
+         "roles": [
+            "goblin_spirit_walker_job"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 4
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 46,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.armor.iron_spirit_walker_helmet.iron_spirit_walker_helmet.display_name)",
+         "description": "i18n(moon_clan:entities.armor.iron_spirit_walker_helmet.iron_spirit_walker_helmet.description)",
+         "icon": "file(iron_spirit_walker_helmet.png)",
+		 "category": "armor",
+		 "material_tags": ["firefly_made", "iron", "helmet", "armor", "heavy_armor", "stockpile_equipment"]
+      }
+   }
+}

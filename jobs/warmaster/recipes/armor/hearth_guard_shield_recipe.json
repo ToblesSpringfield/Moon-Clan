@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 19,
+   "work_units": 5,
+   "recipe_name": "i18n(moon_clan:entities.armor.hearth_guard_shield.hearth_guard_shield.display_name)",
+   "description": "i18n(moon_clan:entities.armor.hearth_guard_shield.hearth_guard_shield.description)",
+   "flavor": "i18n(moon_clan:entities.armor.hearth_guard_shield.hearth_guard_shield.flavor)",
+   "portrait": "/moon_clan/entities/armor/hearth_guard_shield/hearth_guard_shield.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+        {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+        },
+		{
+		"material": "wood resource",
+		"count": 1
+        }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:armor:hearth_guard_shield"
+      }
+   ]
+}

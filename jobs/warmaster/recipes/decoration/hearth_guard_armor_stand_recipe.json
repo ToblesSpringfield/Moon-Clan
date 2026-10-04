@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 25,
+	"work_units": 10,
+	"recipe_name": "Hearth Guard Armor Stand",
+	"description": "Harvest to get your items back.",
+	"flavor": "A true display of your military prowess",
+	"portrait": "/moon_clan/entities/decoration/hearth_guard_armor_stand/hearth_guard_armor_stand.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+			"uri": "moon_clan:armor:hearth_guard_helmet",
+			"count": 1
+		},
+		{
+			"uri": "moon_clan:armor:hearth_guard_armor",
+			"count": 1
+		},
+		{
+			"uri": "moon_clan:decoration:armor_stand",
+			"count": 1
+		},
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:hearth_guard_armor_stand"
+		}
+	]
+}

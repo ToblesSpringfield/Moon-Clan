@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 17,
+	"work_units": 10,
+	"recipe_name": "i18n(moon_clan:entities.decoration.exquisite_rug.exquisite_rug.display_name)",
+	"description": "i18n(moon_clan:entities.decoration.exquisite_rug.exquisite_rug.description)",
+	"flavor": "Clean your feet before stepping on it",
+	"portrait": "/moon_clan/entities/decoration/exquisite_rug/exquisite_rug.png",
+	"workshop": "swamp_goblins:bonesmith:weaving_table",
+	"level_requirement": 5,
+	"ingredients": [
+		{
+			"material": "fiber resource",
+			"count": 3
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:exquisite_rug"
+		}
+	]
+}

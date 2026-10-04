@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 37,
+	"work_units": 5,
+	"recipe_name": "Decorated Clay Bench",
+	"description": "A well sculpted clay bench.",
+	"flavor": "Neat skulls to show how badass we are",
+	"portrait": "/moon_clan/entities/furniture/clay_bench/clay_bench.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"level_requirement": 5,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+			"material": "clay resource",
+			"count": 2
+		},
+	],
+	"produces": [
+		{
+			"item": "moon_clan:furniture:clay_bench"
+		}
+	]
+}

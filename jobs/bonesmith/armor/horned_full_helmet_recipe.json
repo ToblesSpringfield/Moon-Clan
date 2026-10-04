@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 35,
+	"work_units": 10,
+	"recipe_name": "i18n(moon_clan:entities.armor.horned_full_helmet.horned_full_helmet.display_name)",
+	"description": "i18n(moon_clan:entities.armor.horned_full_helmet.horned_full_helmet.description)",
+	"flavor": "i18n(moon_clan:entities.armor.horned_full_helmet.horned_full_helmet.flavor)",
+	"portrait": "/moon_clan/entities/armor/horned_full_helmet/horned_full_helmet.png",
+	"workshop": "swamp_goblins:bonesmith:weaving_table",
+	"level_requirement": 6,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+			"material": "stone resource",
+			"count": 2
+		},
+		{
+			"material": "fiber resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:horned_full_helmet"
+		}
+	]
+}

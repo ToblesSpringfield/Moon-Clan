@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 20,
+   "recipe_name": "Hearth Guard Statue",
+   "description": "A statue of a hearth guard.",
+   "flavor": "Very handy when your elite guards don't have a mirror",
+   "portrait": "/moon_clan/entities/decoration/hearth_guard_statue/hearth_guard_statue.png",
+   "workshop": "swamp_goblins:earthmaster:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+        {
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+        {
+            "material": "stone resource",
+            "count": 6
+        },
+	    {
+			"material": "wood resource",
+			"count": 2
+		},
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:decoration:hearth_guard_statue"
+      }
+   ]
+}

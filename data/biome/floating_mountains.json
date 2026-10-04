@@ -1,0 +1,103 @@
+{
+	"alias": "moon_clan:biome:floating_mountains",
+	"display_name": "i18n(moon_clan:data.biome.floating_mountains.display_name)",
+	"description": "i18n(moon_clan:data.biome.floating_mountains.description)",
+	"random_location_names": [
+		"i18n(moon_clan:data.biome.floating_mountains.random_location_names.000)"
+	],
+	"image": "file(images/floating_mountains_400x300.jpg)",
+	"story_board_image": "file(images/floating_mountains_story_board.jpg)",
+	"game_mode_images": {
+		"stonehearth:game_mode:normal": "/stonehearth/data/biome/images/temperate_story_normal.png",
+		"stonehearth:game_mode:hard": "/stonehearth/data/biome/images/temperate_story_normal.png"
+	},
+	"applied_manifests": {
+		"floating_mountains": "moon_clan/floating_mountains_biome_selected/manifest.json"
+	},
+	"generation_file": "file(floating_mountains_generation.json)",
+	"tower_defense_generation_file": "file(tower_defense/floating_mountains_generation_data.json)",
+	"mining_loot_table": "file(floating_mountains_mining_loot_table.json)",
+	"decay_multiplier": 2,
+	"default_starting_season": "wet",
+	"foraging_spot_uri": "file(ace_foraging_spot.json)",
+	"seasons": {
+		"dry": {
+			"display_name": "i18n(moon_clan:data.biome.floating_mountains.seasons.dry.display_name)",
+			"description": "i18n(moon_clan:data.biome.floating_mountains.seasons.dry.description)",
+			"start_day": 0,
+			"weather": [
+				{
+					"uri": "moon_clan:weather:foggy",
+					"weight": 8
+				},
+				{
+					"uri": "stonehearth:weather:rain:sunny",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:rain",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:sunny",
+					"weight": 9
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:cloudy",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.1
+				}
+			]
+		},
+		"wet": {
+			"display_name": "i18n(moon_clan:data.biome.floating_mountains.seasons.wet.display_name)",
+			"description": "i18n(moon_clan:data.biome.floating_mountains.seasons.wet.description)",
+			"start_day": 42,
+			"weather": [
+				{
+					"uri": "moon_clan:weather:foggy",
+					"weight": 8
+				},
+				{
+					"uri": "stonehearth:weather:rain:sunny",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:rain",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:sunny",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:cloudy",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.1
+				}
+			]
+		}
+	}
+}

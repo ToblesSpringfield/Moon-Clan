@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(moon_clan:data.buffs.courage_aura_effect_buff.display_name)",
+   "description": "i18n(moon_clan:data.buffs.courage_effect_buff.description)",
+   "icon": "file(courage_aura_effect.png)",
+   "duration": "6m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+      "courage": {
+         "add": 30
+      }
+   }
+}

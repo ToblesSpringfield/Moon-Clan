@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 35,
+	"work_units": 5,
+	"recipe_name": "Bronze Armor",
+	"description": "Armor made of Bronze",
+	"flavor": "One plate on either side sounds good",
+	"portrait": "/moon_clan/entities/armor/bronze_armor/bronze_armor.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 2,
+	"ingredients": [
+		{
+		"material": "fiber resource",
+		"count": 2
+		},
+		{
+        "uri": "stonehearth:refined:bronze_ingot",
+        "count": 3
+        }
+	],
+	"produces": [
+		{
+		"item": "moon_clan:armor:bronze_armor"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 34,
+	"work_units": 3,
+	"recipe_name": "Steel Sword",
+	"description": "A sword made of steel, embedded with jewels.",
+	"flavor": "Getting really fance over here",
+	"portrait": "/moon_clan/entities/weapons/steel_sword/steel_sword.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 5,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+	    {
+            "uri": "stonehearth:refined:steel_ingot",
+            "count": 2
+        },
+		{
+			"material": "wood resource",
+			"count": 1
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:steel_sword"
+		}
+	]
+}

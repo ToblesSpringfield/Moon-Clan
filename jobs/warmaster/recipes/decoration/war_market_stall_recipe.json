@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 40,
+	"work_units": 15,
+	"recipe_name": "Goblin Market Stall",
+	"description": "Call merchants to fund the clan.",
+	"flavor": "Mo money, mo problems",
+	"portrait": "/moon_clan/entities/decoration/war_market_stall/war_market_stall.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 3,
+	"ingredients": [
+		{
+			"material": "wood resource",
+			"count": 4
+		},
+		{
+			"material": "stone resource",
+			"count": 6
+		},
+		{
+			"material": "fiber resource",
+			"count": 5
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:war_market_stall"
+		}
+	]
+}

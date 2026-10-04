@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 35,
+	"work_units": 3,
+	"recipe_name": "War Fork",
+	"description": "A two handed war fork.",
+	"flavor": "Goblin war fork for poking things to death",
+	"portrait": "/moon_clan/entities/weapons/war_fork/war_fork.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+            "uri": "stonehearth:refined:steel_ingot",
+            "count": 1
+        },
+		{
+            "uri": "stonehearth:refined:iron_ingot",
+            "count": 1
+        },
+		{
+			"material": "wood resource",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:war_fork"
+		}
+	]
+}

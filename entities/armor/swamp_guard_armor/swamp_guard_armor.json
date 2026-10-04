@@ -1,0 +1,48 @@
+{
+	"mixins": "stonehearth:mixins:item_properties",
+	"type": "entity",
+	"components": {
+		"model_variants": {
+			"default": {
+				"layer": "armor",
+				"transparent": "true",
+				"models": [
+					"file(swamp_guard_armor.qb)"
+				]
+			}
+		},
+		"stonehearth:entity_forms": {
+			"iconic_form": "file(swamp_guard_armor_iconic.json)"
+		},
+		"stonehearth:equipment_piece": {
+			"slot": "torso",
+			"render_type": "merge_with_model",
+			"ilevel": 4.5,
+			"required_job_level": 4,
+			"roles":["goblin_warrior_job"],
+			"equip_effect": "stonehearth:effects:weapon_level_up"
+		}
+	},
+	"entity_data": {
+		"stonehearth:combat:armor_data": {
+			"base_damage_reduction": 5
+		},
+		"stonehearth:net_worth": {
+			"value_in_gold": 52,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": true,
+				"sellable": true,
+				"shopkeeper_level": 2,
+				"shopkeeper_type": "caravan"
+			}
+		},
+		"stonehearth:catalog": {
+			"display_name": "i18n(moon_clan:entities.armor.swamp_guard_armor.swamp_guard_armor.display_name)",
+			"description": "i18n(moon_clan:entities.armor.swamp_guard_armor.swamp_guard_armor.description)",
+			"icon": "file(swamp_guard_armor.png)",
+			"category": "armor",
+			"material_tags": ["firefly_made", "iron", "armor", "heavy_armor", "stockpile_equipment"]
+		}
+	}
+}

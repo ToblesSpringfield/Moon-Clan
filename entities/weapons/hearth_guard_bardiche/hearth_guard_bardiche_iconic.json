@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hearth_guard_bardiche_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(hearth_guard_bardiche.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+	"type": "recipe",
+	"effort": 45,
+	"work_units": 10,
+	"recipe_name": "Hearth Guard Armor",
+	"description": "Hearth guard armor made of steel.",
+	"flavor": "How to show our green bretheren that we're the best!",
+	"portrait": "/moon_clan/entities/armor/hearth_guard_armor/hearth_guard_armor.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+			"material": "fiber resource",
+			"count": 3
+		},
+		{
+            "uri": "stonehearth:refined:steel_ingot",
+            "count": 4
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:hearth_guard_armor"
+		}
+	]
+}

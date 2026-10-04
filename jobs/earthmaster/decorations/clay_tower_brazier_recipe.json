@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "effort": 35,
+    "work_units": 10,
+    "recipe_name": "Clay Tower Brazier",
+    "description": "A decorated clay tower brazier.",
+    "flavor": "I wonder what our guests think about the head buring at night",
+    "portrait": "/moon_clan/entities/decoration/clay_tower_brazier/clay_tower_brazier.png",
+    "workshop": "swamp_goblins:earthmaster:potter_workbench",
+    "level_requirement": 6,
+    "ingredients": [
+	    {
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 1
+		},
+        {
+            "material": "clay resource",
+            "count": 2
+        }
+    ],
+    "produces": [
+        {
+            "item": "moon_clan:decoration:clay_tower_brazier"
+        }  
+    ]
+}

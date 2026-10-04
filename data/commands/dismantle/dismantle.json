@@ -1,0 +1,10 @@
+{
+   "type": "command",
+   "name": "dismantle",
+   "display_name": "i18n(moon_clan:data.commands.dismantle.display_name)",
+   "description": "i18n(moon_clan:data.commands.dismantle.description)",
+   "icon": "file(dismantle.png)",
+   "action": "call",
+   "function": "stonehearth:harvest_entity",
+   "args": []
+}

@@ -1,0 +1,20 @@
+{
+	"type" : "entity",
+	"mixins": "stonehearth:mixins:mob",
+	"components": {
+		"model_variants": {
+			"firefly_goblin": {
+				"models": [
+					"file(goblin_spirit.qb)",
+					{
+						"type": "one_of",
+						"items": [
+							"/moon_clan/data/summons/goblin_spirit/goblin_spirit_swampguard_helmet.qb",
+							"/moon_clan/data/summons/goblin_spirit/goblin_spirit_hearthguard_helmet.qb"
+						]
+					}
+				]
+			}
+		}
+	}
+}

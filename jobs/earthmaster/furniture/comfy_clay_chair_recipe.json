@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 40,
+	"work_units": 5,
+	"recipe_name": "Comfy Clay Chair",
+	"description": "A comfy clay chair to sit on.",
+	"flavor": "A little something to sit on for lunch, and it's padded!",
+	"portrait": "/moon_clan/entities/furniture/comfy_clay_chair/comfy_clay_chair.png",
+	"workshop": "swamp_goblins:earthmaster:workbench",
+	"level_requirement": 5,
+	"ingredients": [
+        {
+			"material": "fiber resource",
+			"count": 1
+		},
+		{
+			"material": "clay resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:furniture:comfy_clay_chair"
+		}
+	]
+}

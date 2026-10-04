@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 17,
+   "work_units": 5,
+   "recipe_name": "Swamp Guard Shield",
+   "description": "A shield made of iron.",
+   "flavor": "Might be a bit heavy, but it protects the user well!",
+   "portrait": "/moon_clan/entities/armor/iron_shield/iron_shield.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+        {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+        },
+		{
+		"material": "wood resource",
+		"count": 1
+        }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:armor:iron_shield"
+      }
+   ]
+}

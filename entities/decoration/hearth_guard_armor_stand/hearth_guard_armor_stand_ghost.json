@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hearth_guard_armor_stand.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.hearth_guard_armor_stand.hearth_guard_armor_stand.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.hearth_guard_armor_stand.hearth_guard_armor_stand.description)",
+         "icon": "file(hearth_guard_armor_stand.png)",
+         "category": "decoration",
+         "material_tags": [
+            "armor",
+            "crafted",
+			"decoration",
+            "resource_pile"
+         ]
+      }
+   }
+}

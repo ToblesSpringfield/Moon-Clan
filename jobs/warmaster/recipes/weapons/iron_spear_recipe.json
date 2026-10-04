@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 32,
+	"work_units": 3,
+	"recipe_name": "Iron Spear",
+	"description": "A spear made of iron.",
+	"flavor": "The standard spear for any army",
+	"portrait": "/moon_clan/entities/weapons/iron_spear/iron_spear.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 3,
+	"ingredients": [
+	    {
+            "uri": "stonehearth:refined:iron_ingot",
+            "count": 2
+        },
+		{
+			"material": "wood resource",
+			"count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:weapons:iron_spear"
+		}
+	]
+}

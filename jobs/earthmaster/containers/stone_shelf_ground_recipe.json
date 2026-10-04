@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 15,
+   "work_units": 5,
+   "recipe_name": "Stone Ground Shelf",
+   "description": "Holds 12 items.",
+   "flavor": "Nice chunk of stone to store things on",
+   "portrait": "/moon_clan/entities/containers/stone_shelf_ground/stone_shelf_ground.png",
+   "workshop": "swamp_goblins:earthmaster:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:containers:stone_shelf_ground"
+      }
+   ]
+}

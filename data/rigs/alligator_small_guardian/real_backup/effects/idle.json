@@ -1,0 +1,11 @@
+{
+    "type" : "effect",
+    "tracks": {
+        "animation": {
+            "type": "animation_effect",
+            "start_time": 0,
+            "animation": "moon_clan/data/rigs/alligator_small_guardian/animations/idle.json",
+            "loop": true
+        }
+    }
+}

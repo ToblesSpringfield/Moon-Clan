@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 20,
+	"work_units": 1,
+	"recipe_name": "Decorated Clay Supply Basin",
+	"description": "Can hold 12 items.",
+	"flavor": "Even a little container deserves attention",
+	"portrait": "/moon_clan/entities/containers/clay_supply_basin/clay_supply_basin.png",
+	"workshop": "swamp_goblins:earthmaster:potter_workbench",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+			"material": "clay resource",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:containers:clay_supply_basin"
+		}
+	]
+}

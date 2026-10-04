@@ -1,0 +1,24 @@
+{
+	"type": "recipe",
+	"work_units": 3,
+	"recipe_name": "Wooden Warmaster Sign",
+	"description": "Wooden version of the Warmaster sign",
+	"flavor": "Advertising oneself as a creator is a smart thing - Tobles",
+	"portrait": "/moon_clan/entities/decoration/wooden_sign_warmaster/wooden_sign_warmaster.png",
+	"workshop": "swamp_goblins:bonesmith:workbench",
+	"ingredients": [
+		{
+			"material": "wood resource",
+			"count": 1
+		},
+		{
+			"material": "fiber resource",
+			"count": 1
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:wooden_sign_warmaster"
+		}
+	]
+}

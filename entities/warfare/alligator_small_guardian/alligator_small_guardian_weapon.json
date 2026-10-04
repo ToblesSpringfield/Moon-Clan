@@ -1,0 +1,29 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "none"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 34,
+         "base_ranged_damage": 34,
+         "range": 36,
+         "projectile_speed": 30,
+         "projectile_uri": "swamp_goblins:weapons:poison_dart",
+         "projectile_start_offset": { "x": 0, "y": 1.6, "z": 0 },
+         "projectile_end_offset": { "x": 0, "y": 1.6, "z": 0 }
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "fire",
+            "effect": "fire",
+            "active_frame": 31,
+            "cooldown": 100,
+            "priority": 0
+         }
+      ]
+   }
+}

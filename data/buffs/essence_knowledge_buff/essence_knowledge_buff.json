@@ -1,0 +1,9 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(moon_clan:data.buffs.essence_knowledge.display_name)",
+   "description": "i18n(moon_clan:data.buffs.essence_knowledge.description)",
+   "icon": "/moon_clan/jobs/warmaster/images/extended_catalog.png",
+   "script": "moon_clan/data/buffs/essence_knowledge_buff/essence_knowledge_buff.lua",
+   "persistent": "true"
+}

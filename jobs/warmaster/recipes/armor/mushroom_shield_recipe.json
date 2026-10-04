@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 5,
+   "work_units": 5,
+   "recipe_name": "Mushroom Shield",
+   "description": "A shield made from a mushroom top.",
+   "flavor": "Won't stop a blade, but hopefull it'll get stuck",
+   "portrait": "/moon_clan/entities/armor/mushroom_shield/mushroom_shield.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "swamp_goblins:plants:mushroom",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:armor:mushroom_shield"
+      }
+   ]
+}

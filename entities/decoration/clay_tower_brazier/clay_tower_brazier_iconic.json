@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.03
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(clay_tower_brazier.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(clay_tower_brazier.png)",
+         "is_item": true,
+         "category": "decoration"
+      }
+   }
+}

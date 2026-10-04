@@ -1,0 +1,22 @@
+{
+	"type": "recipe",
+	"effort": 16,
+	"work_units": 10,
+	"recipe_name": "i18n(moon_clan:entities.decoration.fine_rug.fine_rug.display_name)",
+	"description": "i18n(moon_clan:entities.decoration.fine_rug.fine_rug.description)",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/decoration/fine_rug/fine_rug.png",
+	"workshop": "swamp_goblins:bonesmith:weaving_table",
+	"level_requirement": 4,
+	"ingredients": [
+		{
+			"material": "fiber resource",
+			"count": 3
+		}
+	],
+	"produces": [
+		{
+			"item": "moon_clan:decoration:fine_rug"
+		}
+	]
+}

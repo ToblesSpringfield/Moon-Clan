@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(iron_beast_tamer_claw_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(iron_beast_tamer_claw.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

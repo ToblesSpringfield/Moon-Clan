@@ -1,0 +1,18 @@
+{
+  "crafter_menu": {
+    "items": {
+      "warmaster": {
+        "name": "Warmaster",
+        "description": "The one in charge of the warfare",
+        "class": "swamp_goblins_button",
+        "required_job": "moon_clan:jobs:warmaster",
+        "required_job_text": "Level 3 Bonesmith",
+        "icon": "/moon_clan/jobs/warmaster/images/warmaster_menu_icon.png",
+        "sticky": true,
+        "menu_action": "show_crafter_ui",
+        "hotkey_action": "craft:warmaster",
+        "hotkey": ""
+      }
+    }
+  }
+}

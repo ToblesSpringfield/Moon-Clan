@@ -1,0 +1,16 @@
+{
+	"craftable_recipes": {
+	    "goblin_tools": {
+			"ordinal": 15,
+			"name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",
+			"recipes": {
+				"warmaster_talisman": {
+					"recipe": "file(warmaster_talisman_recipe.json)"
+				},
+				"essence_knowledge_tome": {
+					"recipe": "file(essence_knowledge_tome_recipe.json)"
+				}
+			}
+		}
+	}
+}

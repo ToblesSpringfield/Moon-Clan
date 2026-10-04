@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "render_info": {
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/magic_material_map.json"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(skull_pole_banner.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.skull_pole_banner.skull_pole_banner.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.skull_pole_banner.skull_pole_banner.description)",
+         "icon": "file(skull_pole_banner.png)",
+         "category": "decoration",
+         "material_tags": [
+            "wood",
+            "crafted",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

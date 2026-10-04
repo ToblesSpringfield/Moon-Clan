@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 26,
+    "work_units": 10,
+    "recipe_name": "Clay Skull Brazier",
+    "description": "A skull made of clay, turned into a brazier.",
+    "flavor": "One third of a clay tower brazier",
+    "portrait": "/moon_clan/entities/decoration/clay_skull_brazier/clay_skull_brazier.png",
+    "workshop": "swamp_goblins:earthmaster:potter_workbench",
+    "level_requirement": 4,
+    "ingredients": [
+        {
+            "material": "clay resource",
+            "count": 1
+        }
+    ],
+    "produces": [
+        {
+            "item": "moon_clan:decoration:clay_skull_brazier"
+        }  
+    ]
+}

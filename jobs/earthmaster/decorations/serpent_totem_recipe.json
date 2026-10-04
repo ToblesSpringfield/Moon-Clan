@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 55,
+   "work_units": 20,
+   "recipe_name": "Serpent Totem",
+   "description": "A serpet totem made of clay and stone.",
+   "flavor": "Why? For the glory of the creator of course!",
+   "portrait": "/moon_clan/entities/decoration/serpent_totem/serpent_totem.png",
+   "workshop": "swamp_goblins:earthmaster:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+        {
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+        {
+            "material": "stone resource",
+            "count": 3
+        },
+		{
+            "material": "clay resource",
+            "count": 3
+        }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:decoration:serpent_totem"
+      }
+   ]
+}

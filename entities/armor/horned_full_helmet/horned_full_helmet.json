@@ -1,0 +1,55 @@
+{
+	"mixins": "stonehearth:mixins:item_properties",
+	"type": "entity",
+	"components": {
+		"model_variants": {
+			"default": {
+				"layer": "hat",
+				"transparent": "false",
+				"models": [
+					"file(horned_full_helmet.qb)"
+				]
+			}
+		},
+		"stonehearth:entity_forms": {
+			"iconic_form": "file(horned_full_helmet_iconic.json)"
+		},
+		"stonehearth:equipment_piece": {
+			"render_type": "merge_with_model",
+			"slot": "helmet",
+			"ilevel": 6.5,
+			"required_job_level": 6,
+			"roles":["goblin_warrior_job"],
+			"equip_effect": "stonehearth:effects:weapon_level_up"
+		}
+	},
+	"entity_data": {
+		"stonehearth:combat:armor_data": {
+			"base_damage_reduction": 6
+		},
+		"stonehearth:net_worth": {
+			"value_in_gold": 36,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": true,
+				"sellable": true,
+				"shopkeeper_level": 3,
+				"shopkeeper_type": "caravan"
+			}
+		},
+		"stonehearth:catalog": {
+			"display_name": "i18n(moon_clan:entities.armor.horned_full_helmet.horned_full_helmet.display_name)",
+			"description": "i18n(moon_clan:entities.armor.horned_full_helmet.horned_full_helmet.description)",
+			"icon": "file(horned_full_helmet.png)",
+			"category": "armor",
+			"material_tags": [
+				"firefly_made", 
+				"stone", 
+				"helmet", 
+				"armor", 
+				"heavy_armor", 
+				"stockpile_equipment"
+			]
+		}
+	}
+}

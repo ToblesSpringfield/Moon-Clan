@@ -1,0 +1,29 @@
+{
+	"type": "recipe",
+	"work_units": 10,
+	"recipe_name": "i18n(swamp_goblins:entities.armor.varanus_armor.display_name)",
+	"description": "i18n(swamp_goblins:entities.armor.varanus_armor.description)",
+	"flavor": "",
+	"portrait": "/swamp_goblins/entities/armor/varanus_armor/varanus_armor.png",
+	"workshop": "swamp_goblins:bonesmith:weaving_table",
+	"level_requirement": 5,
+	"ingredients": [
+		{
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+			"material": "fiber resource",
+			"count": 2
+		},
+		{
+			"uri": "stonehearth:resources:varanus_skin",
+			"count": 2
+		}
+	],
+	"produces": [
+		{
+			"item": "swamp_goblins:armor:varanus_armor"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 26,
+	"work_units": 5,
+	"recipe_name": "Iron Spirit Walker Helmet",
+	"description": "An upgrade for the spirit walker.",
+	"flavor": "Made out of lifeless iron, but protects a lot better",
+	"portrait": "/moon_clan/entities/upgrades/iron_spirit_walker_helmet/iron_spirit_walker_helmet.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 3,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:iron_spirit_walker_helmet"
+		}
+	]
+}

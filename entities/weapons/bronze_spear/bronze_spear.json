@@ -1,0 +1,86 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bronze_spear_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(bronze_spear_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "stonehearth:armor:offhand_placeholder": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 19,
+         "roles": [
+            "goblin_warrior_job"
+         ],
+         "required_job_level": 2,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 19,
+         "reach": 3.0
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_2h_attack",
+            "effect": "combat_2h_attack",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 2
+         },
+         {
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 1,
+            "aoe_effect": {
+               "aoe_range": 19,
+               "damage_multiplier": 0.12,
+               "minimum_damage": 0,
+               "aggro_addition": 80,
+               "aoe_target_limit": 10
+            }
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 28,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.weapons.bronze_spear.bronze_spear.display_name)",
+         "description": "i18n(moon_clan:entities.weapons.bronze_spear.bronze_spear.description)",
+         "icon": "file(bronze_spear.png)",
+         "category": "weapons",
+         "material_tags": [
+            "firefly_made",
+            "bronze",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

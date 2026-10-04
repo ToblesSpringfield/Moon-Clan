@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "effort": 24,
+    "work_units": 10,
+    "recipe_name": "Decorated Clay Firebowl",
+    "description": "A decorated wall mounted clay firebowl.",
+    "flavor": "A firebowl made of clay.",
+    "portrait": "/moon_clan/entities/decoration/clay_torch/clay_torch.png",
+    "workshop": "swamp_goblins:earthmaster:potter_workbench",
+    "level_requirement": 5,
+    "ingredients": [
+        {
+            "material": "clay resource",
+            "count": 1
+        }
+    ],
+    "produces": [
+        {
+            "item": "moon_clan:decoration:clay_torch"
+        }  
+    ]
+}

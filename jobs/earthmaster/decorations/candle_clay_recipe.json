@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 10,
+   "recipe_name": "Clay Candle",
+   "description": "A candle made of clay.",
+   "flavor": "Fancy curves are fancy",
+   "portrait": "/moon_clan/entities/decoration/candle_clay/candle_clay.png",
+   "workshop": "swamp_goblins:earthmaster:potter_workbench",
+   "level_requirement": 4,
+   "ingredients": [
+        {
+            "material": "clay resource",
+            "count": 1
+        },
+	    {
+			"material": "fiber resource",
+			"count": 1
+		},
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:decoration:candle_clay"
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 28,
+	"work_units": 5,
+	"recipe_name": "Light Hearth Guard Helmet",
+	"description": "A light version of the hearth guard helmet made of steel.",
+	"flavor": "",
+	"portrait": "/moon_clan/entities/armor/hearth_guard_helmet_light/hearth_guard_helmet_light.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 4,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:resources:firefly_essense",
+			"count": 2
+		},
+		{
+            "uri": "stonehearth:refined:steel_ingot",
+            "count": 1
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:hearth_guard_helmet_light"
+		}
+	]
+}

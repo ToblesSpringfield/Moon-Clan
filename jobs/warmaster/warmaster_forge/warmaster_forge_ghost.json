@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.0, "y": 0, "z": 0.0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "render_info": {
+         "scale": 0.15,
+         "animation_table": "/stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(warmaster_forge.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.warsmith.warsmith_forge.display_name)",
+         "description": "i18n(moon_clan:entities.warsmith.warsmith_forge.description)",
+         "icon": "file(warmaster_forge.png)",
+         "category": "workshops",
+         "material_tags": [
+            "stockpile_tool"
+         ]
+      }
+   }
+}

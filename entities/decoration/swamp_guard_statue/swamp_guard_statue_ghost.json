@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(swamp_guard_statue.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.57, "y": 0, "z": -0.2 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.14
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(moon_clan:entities.decoration.swamp_guard_statue.swamp_guard_statue.display_name)",
+         "description": "i18n(moon_clan:entities.decoration.swamp_guard_statue.swamp_guard_statue.description)",
+         "icon": "file(swamp_guard_statue.png)",
+         "category": "decoration",
+         "material_tags": [
+            "stone",
+            "crafted",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

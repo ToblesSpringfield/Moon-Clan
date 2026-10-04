@@ -1,0 +1,46 @@
+{
+   "roles": {
+      "herald_amyyria": {
+         "female": {
+            "uri": [
+               "rayyas_children:npc:herald:amyyria"
+            ]
+         }
+      },
+      "herald_naryal": {
+         "male": {
+            "uri": [
+               "rayyas_children:npc:herald:naryal"
+            ]
+         }
+      },
+      "herald_adia": {
+         "female": {
+            "uri": [
+               "rayyas_children:npc:herald:adia"
+            ]
+         }
+      },
+      "herald_emeret": {
+         "male": {
+            "uri": [
+               "rayyas_children:npc:herald:emeret"
+            ]
+         }
+      },
+      "herald_nona": {
+         "female": {
+            "uri": [
+               "rayyas_children:npc:herald:nona"
+            ]
+         }
+      },
+      "herald_arke": {
+         "female": {
+            "uri": [
+               "rayyas_children:npc:herald:arke"
+            ]
+         }
+      }
+   }
+}
