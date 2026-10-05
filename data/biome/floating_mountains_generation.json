@@ -46,6 +46,10 @@
 			"rock_layer_6": "#777777",
 			"rock_layer_7": "#808080",
 			"rock_layer_8": "#504A3C",
+			"you_will_need_these_extra_layers":"any_color_you_like",
+			"rock_layer_9": "#504A3C",
+			"rock_layer_10": "#504A3C",
+			"rock_layer_11": "#504A3C",
 			"soil_light": "#564C35",
 			"soil_dark": "#4E442F",
 			"dirt": "#6D6143",
@@ -77,6 +81,9 @@
 			"rock_layer_6": "#777777",
 			"rock_layer_7": "#808080",
 			"rock_layer_8": "#504A3C",
+			"rock_layer_9": "#504A3C",
+			"rock_layer_10": "#504A3C",
+			"rock_layer_11": "#504A3C",
 			"soil_light": "#564C35",
 			"soil_dark": "#4E442F",
 			"dirt": "#6D6143",
@@ -98,6 +105,12 @@
 		}
 	},
 	"terrain": {
+		"minimap":{
+			"add_text_for_the_mouse_over":"in_the_mini_map",
+			"mountains_9":"i18n(canyon_biome:ui.shell.select_settlement.terrain_codes.mountains_wall)",
+			"mountains_10":"i18n(canyon_biome:ui.shell.select_settlement.terrain_codes.mountains_wall)",
+			"mountains_11":"i18n(canyon_biome:ui.shell.select_settlement.terrain_codes.mountains_wall)"
+		},
 		"noise_map_settings": {
 			"octaves": 1,
 			"persistence_ratio": 0.9,

@@ -141,7 +141,7 @@
       "stonehearth:playable_kingdom_index": "file(data/moon_clan_playable_kingdom_index.json)",
       "stonehearth/data/ui/start_menu.json" : "file(data/ui/start_menu.json)",
       
-      "swamp_goblins/jobs/index.json" : "file(jobs/index.json)",
+      "stonehearth:jobs:index" : "moon_clan:jobs:index",
       "swamp_goblins/jobs/bonesmith/recipes/recipes.json" : "file(jobs/bonesmith/recipes.json)",
       "swamp_goblins/jobs/earthmaster/recipes/recipes.json" : "file(jobs/earthmaster/recipes.json)",
       "swamp_goblins/jobs/shaman/recipes/recipes.json" : "file(jobs/shaman/recipes.json)",

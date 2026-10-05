@@ -1,8 +1,5 @@
 {
 	"mixins": "stonehearth:jobs:index",
 	"jobs": {
-		"moon_clan:jobs:warsmith": {
-			"description": "moon_clan:jobs:warsmith"
-		}
 	}
 }
