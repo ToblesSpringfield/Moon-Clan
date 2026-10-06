@@ -27,7 +27,7 @@
 			"start_day": 0,
 			"weather": [
 				{
-					"uri": "moon_clan:weather:foggy",
+					"uri": "swamp_goblins:weather:foggy",
 					"weight": 8
 				},
 				{
@@ -66,7 +66,7 @@
 			"start_day": 42,
 			"weather": [
 				{
-					"uri": "moon_clan:weather:foggy",
+					"uri": "swamp_goblins:weather:foggy",
 					"weight": 8
 				},
 				{

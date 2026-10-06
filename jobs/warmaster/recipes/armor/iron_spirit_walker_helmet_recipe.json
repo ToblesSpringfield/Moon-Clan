@@ -5,7 +5,7 @@
 	"recipe_name": "Iron Spirit Walker Helmet",
 	"description": "An upgrade for the spirit walker.",
 	"flavor": "Made out of lifeless iron, but protects a lot better",
-	"portrait": "/moon_clan/entities/upgrades/iron_spirit_walker_helmet/iron_spirit_walker_helmet.png",
+	"portrait": "/moon_clan/entities/armor/iron_spirit_walker_helmet/iron_spirit_walker_helmet.png",
 	"workshop": "moon_clan:warmaster:workbench",
 	"level_requirement": 3,
 	"ingredients": [
