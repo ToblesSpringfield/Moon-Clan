@@ -15,7 +15,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(warmaster_workbench.qb)"
+               "file(warmaster_workbench2.qb)"
             ]
          }
       }

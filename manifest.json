@@ -187,9 +187,6 @@
       "moon_clan/jobs/warmaster/recipes/weapons/bone_axe_recipe.json" : "stonehearth_ace/moon_clan/bone_axe_recipe.json",
       "moon_clan/jobs/warmaster/recipes/weapons/bone_sword_recipe.json" : "stonehearth_ace/moon_clan/bone_sword_recipe.json",
       
-      "moon_clan:furniture:decorated_clay_bed" : "swamp_goblins:furniture:clay:bed",
-      "moon_clan:furniture:decorated_clay_chair" : "swamp_goblins:furniture:clay:chair",
-
       "moon_clan/ace/mixins/workbench_fuel/workbench_fuel_warmaster.json" : "stonehearth_ace/moon_clan/mixins/workbench_forge_warmaster.json"
    },
    "components": {},
