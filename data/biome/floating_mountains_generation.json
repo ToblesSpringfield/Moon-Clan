@@ -45,11 +45,11 @@
 			"rock_layer_5": "#6F6F6F",
 			"rock_layer_6": "#777777",
 			"rock_layer_7": "#808080",
-			"rock_layer_8": "#504A3C",
+			"rock_layer_8": "#888888",
 			"you_will_need_these_extra_layers":"any_color_you_like",
-			"rock_layer_9": "#504A3C",
-			"rock_layer_10": "#504A3C",
-			"rock_layer_11": "#504A3C",
+			"rock_layer_9": "#909090",
+			"rock_layer_10": "#999999",
+			"rock_layer_11": "#A0A0A0",
 			"soil_light": "#564C35",
 			"soil_dark": "#4E442F",
 			"dirt": "#6D6143",
@@ -80,10 +80,10 @@
 			"rock_layer_5": "#6F6F6F",
 			"rock_layer_6": "#777777",
 			"rock_layer_7": "#808080",
-			"rock_layer_8": "#504A3C",
-			"rock_layer_9": "#504A3C",
-			"rock_layer_10": "#504A3C",
-			"rock_layer_11": "#504A3C",
+			"rock_layer_8": "#888888",
+			"rock_layer_9": "#909090",
+			"rock_layer_10": "#999999",
+			"rock_layer_11": "#A0A0A0",
 			"soil_light": "#564C35",
 			"soil_dark": "#4E442F",
 			"dirt": "#6D6143",
@@ -107,14 +107,14 @@
 	"terrain": {
 		"minimap":{
 			"add_text_for_the_mouse_over":"in_the_mini_map",
-			"mountains_9":"i18n(canyon_biome:ui.shell.select_settlement.terrain_codes.mountains_wall)",
-			"mountains_10":"i18n(canyon_biome:ui.shell.select_settlement.terrain_codes.mountains_wall)",
-			"mountains_11":"i18n(canyon_biome:ui.shell.select_settlement.terrain_codes.mountains_wall)"
+			"mountains_9":"i18n(moon_clan:ui.shell.select_settlement.terrain_codes.mountains_wall)",
+			"mountains_10":"i18n(moon_clan:ui.shell.select_settlement.terrain_codes.mountains_wall)",
+			"mountains_11":"i18n(moon_clan:ui.shell.select_settlement.terrain_codes.mountains_wall)"
 		},
 		"noise_map_settings": {
-			"octaves": 1,
-			"persistence_ratio": 0.9,
-			"bandlimit": 3,
+			"octaves": 2,
+			"persistence_ratio": 0.05,
+			"bandlimit": 2,
 			"aspect_ratio": 1
 		},
 		"plains_percentage": 75,
@@ -136,19 +136,19 @@
 	"terrain_detailer": {
 		"mountains": {
 			"depth_function": {
-				"octaves": 2,
+				"octaves": 1,
 				"persistence_ratio": 0.2,
 				"amplitude": 5,
-				"layer_thickness": 3,
-				"layer_count": 1,
-				"unit_length": 12
+				"layer_thickness": 2,
+				"layer_count": 3,
+				"unit_length": 8
 			},
 			"height_function": {
-				"octaves": 4,
+				"octaves": 1,
 				"persistence_ratio": 0.1,
 				"amplitude": 2.5,
-				"layer_thickness": 5,
-				"unit_length": 16
+				"layer_thickness": 4,
+				"unit_length": 8
 			}
 		},
 		"foothills": {
@@ -492,13 +492,13 @@
 			},
 			"water_height_delta": 0.3,
 			"noise_map_settings": {
-				"persistence_ratio": 0.01,
-				"bandlimit": 1,
-				"octaves": 2,
+				"persistence_ratio": 0.1,
+				"bandlimit": 2,
+				"octaves": 3,
 				"range": 100,
 				"aspect_ratio": 1,
 				"mean": {
-					"plains": 15,
+					"plains": 10,
 					"foothills": -100,
 					"mountains": -100
 				}

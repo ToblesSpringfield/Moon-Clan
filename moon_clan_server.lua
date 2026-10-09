@@ -8,7 +8,7 @@ function moon_clan:_on_biome_set(e)
 	local overview_map = radiant.mods.require('stonehearth.services.server.world_generation.overview_map')
 	radiant.mixin(overview_map, custom_overview_map)
 
-	local custom_height_map_renderer = radiant.mods.require('swamp_goblins.services.server.world_generation.custom_height_map_renderer')
+	local custom_height_map_renderer = require('services.server.world_generation.custom_height_map_renderer')
 	local height_map_renderer = radiant.mods.require('stonehearth.services.server.world_generation.height_map_renderer')
 	radiant.mixin(height_map_renderer, custom_height_map_renderer)
 
@@ -16,7 +16,7 @@ function moon_clan:_on_biome_set(e)
 	local landscaper = radiant.mods.require('stonehearth.services.server.world_generation.landscaper')
 	radiant.mixin(landscaper, custom_landscaper)
 
-	local custom_micro_map_generator = radiant.mods.require('swamp_goblins.services.server.world_generation.custom_micro_map_generator')
+	local custom_micro_map_generator = require('services.server.world_generation.custom_micro_map_generator')
 	local micro_map_generator = radiant.mods.require('stonehearth.services.server.world_generation.micro_map_generator')
 	radiant.mixin(micro_map_generator, custom_micro_map_generator)
 
