@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 60,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.golem_restocking_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.golem_restocking_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.geomancer.recipes.golem_restocking_recipe.flavor)",
+   "portrait": "/stonehearth/entities/monsters/golems/golem_restocking/golem_restocking.png",
+   "level_requirement": 6,
+   "workshop": "swamp_goblins:earthmaster:potter_workbench",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:monsters:golems:golem_restocking"
+      }
+   ]
+}

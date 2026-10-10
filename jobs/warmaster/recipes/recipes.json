@@ -2,36 +2,27 @@
    "craftable_recipes": {
       "workbenches": {
          "ordinal": 10,
-         "name": "Workbenches",
+         "name": "Workbenches & Improvements",
          "recipes": {
             "warmaster_workbench": {
                 "recipe": "file(workbench/warmaster_workbench_recipe.json)"
             },
             "warmaster_forge": {
                 "recipe": "file(workbench/warmaster_forge_recipe.json)"
+            },
+            "warmaster_forge": {
+                "recipe": "file(workbench/warmaster_forge_recipe.json)"
+            },
+            "worker_tools_iron": {
+                    "recipe": "file(improvements/worker_tools_iron_recipe.json)"
+            },
+            "worker_tools_steel": {
+                    "recipe": "file(improvements/worker_tools_steel_recipe.json)"
             }
         }
     },
-	  "storage": {
-	     "ordinal": 20,
-		 "name": "Containers",
-		 "recipes": {
-		    "iron_supply_bin": {
-			    "recipe": "file(containers/iron_supply_bin_recipe.json)"
-			},
-			"iron_table": {
-			    "recipe": "file(containers/iron_table_recipe.json)"
-			},
-			"iron_corner": {
-			    "recipe": "file(containers/iron_corner_recipe.json)"
-		    },
-			"war_vault": {
-			    "recipe": "file(containers/war_vault_recipe.json)"
-			}
-		}
-	},
 	  "smelt": {
-         "ordinal": 30,
+         "ordinal": 20,
          "name": "Smelting",
          "recipes": {
             "copper_ingot": {
@@ -61,7 +52,7 @@
 		}
     },
       "weapons": {
-         "ordinal": 40,
+         "ordinal": 30,
          "name": "Weapons",
          "recipes": {
             "bone_sword": {
@@ -112,7 +103,7 @@
         }
     },
       "armor": {
-         "ordinal": 50,
+         "ordinal": 40,
          "name": "Armor",
          "recipes": {
 		    "bronze_armor": {
@@ -159,6 +150,24 @@
             }
 		}
 	},
+    "storage": {
+         "ordinal": 50,
+         "name": "Containers",
+         "recipes": {
+            "iron_supply_bin": {
+                "recipe": "file(containers/iron_supply_bin_recipe.json)"
+            },
+            "iron_table": {
+                "recipe": "file(containers/iron_table_recipe.json)"
+            },
+            "iron_corner": {
+                "recipe": "file(containers/iron_corner_recipe.json)"
+            },
+            "war_vault": {
+                "recipe": "file(containers/war_vault_recipe.json)"
+            }
+        }
+    },
 	"warfare": {
 	     "ordinal": 60,
 		 "name": "Warfare",

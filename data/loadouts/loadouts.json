@@ -1,0 +1,107 @@
+{
+	"type": "index",
+	"loadouts": {
+		"moon_clan_toys": {
+			"ordinal": 1,
+			"alias": "moon_clan:data:loadouts:toys",
+			"display_name": "i18n(moon_clan:data.loadouts.toys.display_name)",
+			"description": "i18n(moon_clan:data.loadouts.toys.description)",
+			"tooltip": "i18n(moon_clan:data.loadouts.toys.tooltip)",
+			"splash": "file(images/toys_splash.png)",
+			"seal": "file(images/toys_seal.png)",
+			"content": {
+				"horn": {
+					"ordinal": 10,
+					"display_name": "i18n(swamp_goblins:jobs.warrior.warrior_horn.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:warrior:talisman",
+					"icon": "/swamp_goblins/jobs/warrior/warrior_horn/warrior_horn.png",
+					"amount": 1
+				},
+				"outfit": {
+					"ordinal": 20,
+					"display_name": "i18n(stonehearth:jobs.worker.worker_outfit_2.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:worker:upgraded_outfit",
+					"icon": "/swamp_goblins/jobs/worker/upgraded_outfit/upgraded_outfit.png",
+					"amount": 1
+				},
+				"potion": {
+					"ordinal": 30,
+					"display_name": "i18n(swamp_goblins:entities.consumables.potions.large_healing.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:consumables:potions:large_healing",
+					"icon": "/swamp_goblins/entities/consumables/potions/large_healing/large_healing.png",
+					"amount": 1
+				},
+				"jerky": {
+					"ordinal": 40,
+					"display_name": "i18n(stonehearth:data.loadouts.items.jerky)",
+					"type": "entity",
+					"uri": "swamp_goblins:food:frog_jerky",
+					"icon": "/stonehearth/data/loadouts/images/items/jerky.png",
+					"amount": 20
+				},
+				"gold": {
+					"ordinal": 50,
+					"display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+					"type": "gold",
+					"icon": "/stonehearth/data/loadouts/images/items/gold.png",
+					"uri": "stonehearth:loot:gold",
+					"amount": 100
+				}
+			}
+		},
+		"moon_clan_nature": {
+			"ordinal": 2,
+			"alias": "moon_clan:data:loadouts:nature",
+			"display_name": "i18n(moon_clan:data.loadouts.nature.display_name)",
+			"description": "i18n(moon_clan:data.loadouts.nature.description)",
+			"tooltip": "i18n(moon_clan:data.loadouts.nature.tooltip)",
+			"splash": "file(images/nature_splash.png)",
+			"seal": "file(images/nature_seal.png)",
+			"content": {
+				"flute": {
+					"ordinal": 10,
+					"display_name": "i18n(swamp_goblins:jobs.beast_tamer.beast_tamer_flute.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:beast_tamer:talisman",
+					"icon": "/swamp_goblins/jobs/beast_tamer/beast_tamer_flute/beast_tamer_flute.png",
+					"amount": 1
+				},
+				"herb": {
+					"ordinal": 20,
+					"display_name": "i18n(swamp_goblins:entities.plants.giant_flower.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:plants:giant_flower",
+					"icon": "/swamp_goblins/entities/plants/giant_flower/giant_flower.png",
+					"amount": 1
+				},
+				"fiber": {
+					"ordinal": 30,
+					"display_name": "i18n(swamp_goblins:entities.plants.cattail.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:plants:cattail",
+					"icon": "/swamp_goblins/entities/plants/cattail/cattail.png",
+					"amount": 1
+				},
+				"mushroom": {
+					"ordinal": 40,
+					"display_name": "i18n(swamp_goblins:entities.plants.mushroom.display_name)",
+					"type": "entity",
+					"uri": "swamp_goblins:plants:mushroom",
+					"icon": "/swamp_goblins/entities/plants/mushroom/mushroom.png",
+					"amount": 1
+				},
+				"stone": {
+					"ordinal": 50,
+					"display_name": "i18n(stonehearth:entities.containers.stone_pile.stone_pile.display_name)",
+					"type": "entity",
+					"uri": "stonehearth:containers:stone_pile",
+					"icon": "/stonehearth/entities/containers/stone_pile/stone_pile.png",
+					"amount": 1
+				}
+			}
+		}
+	}
+}

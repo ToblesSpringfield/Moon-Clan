@@ -8,6 +8,9 @@
 				"clay_chair": {
 					"recipe": "file(furniture/clay_chair_recipe.json)"
 				},
+				"comfy_clay_chair": {
+					"recipe": "file(furniture/comfy_clay_chair_recipe.json)"
+				},
 				"clay_table": {
 					"recipe": "file(furniture/clay_table_recipe.json)"
 				},
@@ -38,7 +41,10 @@
 				},
 				"stone_shelf_ground": {
 					"recipe": "file(containers/stone_shelf_ground_recipe.json)"
-				}
+				},
+				"golem_restocking": {
+               		"recipe": "file(containers/golem_restocking_recipe.json)"
+            	}
 			}
 		},
 		"goblin_decorations": {

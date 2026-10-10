@@ -8,7 +8,7 @@
    "post_selection_description": "i18n(moon_clan:data.population.moon_clan.post_selection_description)",
    "image": "/swamp_goblins/data/images/firefly_400x300.png",
    "story_board_image": "/swamp_goblins/data/images/story_board_image.png",
-   "loadouts": "/swamp_goblins/data/loadouts/loadouts.json",
+   "loadouts": "/moon_clan/data/loadouts/loadouts.json",
    "starting_talisman": "swamp_goblins:shaman:talisman",
    "starting_resource": "swamp_goblins:plants:giant_flower",
    "initial_town_name": "i18n(moon_clan:kingdom.initial_town_name)",
