@@ -31,7 +31,7 @@
 	"season": "wet",
 	"palettes": {
 		"minimap":{
-			"water":"#4B4A32",
+			"water":"#445A52",
 			"trees":"#1D2D21"
 		},
 		"dry": {
@@ -57,9 +57,9 @@
 			"grass": "#838646",
 			"grass_edge_1": "#676A2E",
 			"grass_edge_2": "#767837",
-			"grass_hills": "#838646",
-			"grass_hills_edge_1": "#676A2E",
-			"grass_hills_edge_2": "#767837",
+			"grass_hills": "#81915F",
+			"grass_hills_edge_1": "#738353",
+			"grass_hills_edge_2": "#7A8A58",
 			"copper_ore": "#C87533",
 			"tin_ore": "#B0A080",
 			"iron_ore": "#90B0D0",
@@ -91,9 +91,9 @@
 			"grass": "#7C7F48",
 			"grass_edge_1": "#5D602D",
 			"grass_edge_2": "#6D7037",
-			"grass_hills": "#7C7F48",
-			"grass_hills_edge_1": "#5D602D",
-			"grass_hills_edge_2": "#6D7037",
+			"grass_hills": "#7D885C",
+			"grass_hills_edge_1": "#6B764D",
+			"grass_hills_edge_2": "#748052",
 			"copper_ore": "#C87533",
 			"tin_ore": "#B0A080",
 			"iron_ore": "#90B0D0",
@@ -485,7 +485,7 @@
 					"swamp_goblins:boulder:large_2":1.5
 				}
 			},
-			"color": "#4B4A32E0",
+			"color": "#445A52D0",
 			"depth": {
 				"shallow": 1,
 				"deep": 2

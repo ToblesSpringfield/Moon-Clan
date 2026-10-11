@@ -1,0 +1,23 @@
+{
+	"mixins": "swamp_goblins:goblins:goblin",
+	"entity_data" : {
+		"stonehearth:customization_variants" : {
+			"packages": {
+				"hair_and_skin_color": {
+					"skin_color": {
+						"weights": {
+							"default": 0.25,
+							"lighter": 0.25,
+							"darker": 0.25,
+							"greyer": 0.25,
+							"green": 1,
+							"yellow": 1,
+							"red": 1,
+							"white": 45
+						}
+					}
+				}
+			}
+		}
+	}
+}

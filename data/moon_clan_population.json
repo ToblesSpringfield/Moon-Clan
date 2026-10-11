@@ -18,5 +18,17 @@
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
    "trappable_animals": "swamp_goblins:data:trapping:all_trappable_animals",
    "default_material": "fiber resource",
-   "ordinal": 2
+   "ordinal": 2,
+	"roles": {
+		"default": {
+			"male": {
+				"mixintypes": {
+					"uri": "override"
+				},
+				"uri": [
+					"moon_clan:goblins:goblin"
+				]
+			}
+		}
+	}
 }

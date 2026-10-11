@@ -1,0 +1,12 @@
+{
+	"styles": {
+		"skin_color": {
+			"type": "material_map",
+			"values": {
+				"white": {
+					"file": "/moon_clan/data/materials/material_maps/skin_white_material_map.json"
+				}
+			}
+		}
+	}
+}
