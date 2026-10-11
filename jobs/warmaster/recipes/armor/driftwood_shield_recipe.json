@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "Driftwood Shield",
+   "description": "A shield made of some logs.",
+   "flavor": "Everyone has to start somewhere when they make stuff",
+   "portrait": "/moon_clan/entities/armor/driftwood_shield/driftwood_shield.png",
+   "workshop": "moon_clan:warmaster:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+		  {
+		  "material": "wood resource",
+		  "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "moon_clan:armor:driftwood_shield"
+      }
+   ]
+}

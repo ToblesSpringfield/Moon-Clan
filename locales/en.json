@@ -82,6 +82,13 @@
                "description": "A shield made of bronze."
             }
          },
+         "driftwood_shield": {
+            "driftwood_shield": {
+               "display_name": "Driftwood Shield",
+               "description": "A shield made of some logs.",
+               "flavor" : "Everyone has to start somewhere when they make stuff"
+            }
+         },
          "hearth_guard_armor": {
             "hearth_guard_armor": {
                "display_name": "Hearth Guard armor",
@@ -771,6 +778,18 @@
          "dismantle": {
             "display_name": "Dismantle",
             "description": "Press to dismantle the item."
+         }
+      },
+      "loadouts": {
+         "toys": {
+            "display_name": "Goblin Toys",
+            "description": "This is what happens when goblins are asked to bring their own stuff",
+            "tooltip": "Hands full of weapons, bellies full of food, and pockets full of money."
+         },
+         "nature": {
+            "display_name": "Nature Synergy",
+            "description": "Balancing yourself with nature can be hard sometimes, this should help.",
+            "tooltip": "A safe option for new players. Basic materials from the start, should you need them all."
          }
       }
    }

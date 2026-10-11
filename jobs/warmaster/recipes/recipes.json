@@ -118,6 +118,9 @@
 			"bronze_spirit_walker_helmet": {
                 "recipe": "file(armor/bronze_spirit_walker_helmet_recipe.json)"
             },
+            "driftwood_shield": {
+                "recipe": "file(armor/driftwood_shield_recipe.json)"
+			},
 			"iron_shield": {
                 "recipe": "file(armor/iron_shield_recipe.json)"
             },
