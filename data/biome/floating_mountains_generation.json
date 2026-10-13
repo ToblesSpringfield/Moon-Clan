@@ -323,14 +323,6 @@
           			"exclusion_radius" : 2
         		}
       		},
-      		"stonehearth:plants:violet": {
-            	"placement_type": "dense",
-            	"parameters": {
- 		            "grid_multiple": 2,
-	                "item_density": 0.1,
-               		"exclusion_radius": 1
-            	}
-         	},
          	"stonehearth_ace:plants:nightshade": {
            	 	"placement_type": "dense",
             	"parameters": {
@@ -486,7 +478,7 @@
 					},
 					"mountains": {
 						"1": {
-							"swamp_goblins:trees:dead:small":0.2,
+							"swamp_goblins:trees:dead:small":0.1,
 							"stonehearth_ace:plants:moonbell" : 0.1,
 							"stonehearth_ace:plants:marblesprout:wild" : 0.1
 						}
@@ -573,7 +565,7 @@
 					"swamp_goblins:boulder:large_2":0.5
 				},
 				"water_2":{
-					"none":1.5,
+					"none":6,
 					"swamp_goblins:trees:bogger:small":1,
 					"swamp_goblins:trees:cypress:medium":1,
 					"swamp_goblins:trees:cypress:large":1,

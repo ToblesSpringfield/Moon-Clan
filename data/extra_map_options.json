@@ -1,0 +1,13 @@
+{
+	"biome_options": {
+		"moon_clan:biome:floating_mountains": {
+			"dirt_holes":false,
+			"rivers":{
+				"quantity":4,
+				"plains":true,
+				"foothills":false,
+				"mountains":false
+			}
+		}
+	}
+}
