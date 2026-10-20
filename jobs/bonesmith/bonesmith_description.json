@@ -1,0 +1,21 @@
+{
+	"type": "job",
+	"mixins": "swamp_goblins:jobs:bonesmith",
+	"display_order": 4,
+	"requirements": "i18n(swamp_goblins:jobs.common.common_description.requirements)",
+	"crafter": {
+		"recipe_list": "/swamp_goblins/jobs/bonesmith/recipes/recipes.json"
+	},
+	"parent_job": "swamp_goblins:jobs:earthmaster",
+	"parent_level_requirement": 3,
+	"xp_rewards": {
+		"craft_level_0": 27,
+		"craft_level_1": 28,
+		"craft_level_2": 29,
+		"craft_level_3": 30,
+		"craft_level_4": 31,
+		"craft_level_5": 32,
+		"craft_level_6": 33,
+		"repair_entity": 10
+	}
+}

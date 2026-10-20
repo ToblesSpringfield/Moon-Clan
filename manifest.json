@@ -18,6 +18,8 @@
       	"jobs:index": "file(jobs/index.json)",
       	"jobs:moon_clan_index" : "file(jobs/moon_clan_index.json)",
       	"jobs:warmaster" : "file(jobs/warmaster/warmaster_description.json)",
+            "jobs:earthmaster": "file(jobs/earthmaster/earthmaster_description.json)",
+            "jobs:bonesmith": "file(jobs/bonesmith/bonesmith_description.json)",
       	"kingdoms:moon_clan": "file(data/moon_clan_population.json)",
       
       	"warmaster:talisman" : "file(jobs/warmaster/warmaster_hammer/warmaster_hammer_talisman.json)",
