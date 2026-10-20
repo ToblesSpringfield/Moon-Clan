@@ -24,7 +24,7 @@
          "render_type": "merge_with_model",
          "slot": "helmet",
          "ilevel": 15,
-         "required_job_level": 4,
+         "required_job_level": 5,
          "roles": [
             "goblin_spirit_walker_job"
          ],
@@ -33,10 +33,10 @@
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 5
+         "base_damage_reduction": 3
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 46,
+         "value_in_gold": 56,
          "shop_info": {
             "buyable": false,
             "sellable": false,
@@ -49,7 +49,7 @@
          "description": "i18n(moon_clan:entities.armor.steel_spirit_walker_helmet.steel_spirit_walker_helmet.description)",
          "icon": "file(steel_spirit_walker_helmet.png)",
 		 "category": "armor",
-		 "material_tags": ["firefly_made", "steel", "helmet", "armor", "heavy_armor", "stockpile_equipment"]
+		 "material_tags": ["firefly_made", "steel", "helmet", "armor", "light_armor", "stockpile_equipment"]
       }
    }
 }

@@ -33,10 +33,10 @@
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 4
+         "base_damage_reduction": 2
       },
       "stonehearth:net_worth": {
-         "value_in_gold": 46,
+         "value_in_gold": 44,
          "shop_info": {
             "buyable": false,
             "sellable": false,
@@ -49,7 +49,7 @@
          "description": "i18n(moon_clan:entities.armor.iron_spirit_walker_helmet.iron_spirit_walker_helmet.description)",
          "icon": "file(iron_spirit_walker_helmet.png)",
 		 "category": "armor",
-		 "material_tags": ["firefly_made", "iron", "helmet", "armor", "heavy_armor", "stockpile_equipment"]
+		 "material_tags": ["firefly_made", "iron", "helmet", "armor", "light_armor", "stockpile_equipment"]
       }
    }
 }
