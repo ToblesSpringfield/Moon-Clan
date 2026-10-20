@@ -52,16 +52,28 @@
    },
    "entities": {
       "armor": {
+         "back_banner_generic": {
+            "back_banner_generic": {
+               "display_name": "Back Banner",
+               "description": "A back mounted banner with a skull ontop."
+            }
+         },
+         "back_banner_skull": {
+            "back_banner_skull": {
+               "display_name": "Skull Back Banner",
+               "description": "A back mounted banner with an aggressive skull pattern."
+            }
+         },
+         "back_banner_varanus": {
+            "back_banner_varanus": {
+               "description": "A back mounted banner with an inspiring varanusl pattern.",
+               "display_name": "Varanus Back Banner"
+            }
+         },
       	"bronze_spirit_walker_helmet": {
             "bronze_spirit_walker_helmet": {
                "display_name": "Bronze Spirit Walker Helmet",
                "description": "A bronze upgrade for the spirit walker."
-            }
-         },
-         "iron_spirit_walker_helmet": {
-            "iron_spirit_walker_helmet": {
-               "display_name": "Iron Spirit Walker Helmet",
-               "description": "An iron upgrade for the spirit walker."
             }
          },
          "bronze_armor": {
@@ -89,6 +101,24 @@
                "flavor" : "Everyone has to start somewhere when they make stuff"
             }
          },
+         "iron_spirit_walker_helmet": {
+            "iron_spirit_walker_helmet": {
+               "display_name": "Iron Spirit Walker Helmet",
+               "description": "An iron upgrade for the spirit walker."
+            }
+         },
+         "steel_spirit_walker_helmet": {
+            "steel_spirit_walker_helmet": {
+               "display_name": "Steel Spirit Walker Helmet",
+               "description": "A steel upgrade for the spirit walker."
+            }
+         },
+         "swamp_guard_shield": {
+            "swamp_guard_shield": {
+               "display_name": "Swamp Guard Shield",
+               "description": "Swamp guard shield made of steel."
+            }
+         },
          "hearth_guard_armor": {
             "hearth_guard_armor": {
                "display_name": "Hearth Guard armor",
@@ -114,12 +144,6 @@
                "display_name": "Horned Full Helmet",
                "description": "A large helmet to scare even the largest of enemies.",
                "flavor": "The true strength of the wearer is shown by its size"
-            }
-         },
-         "iron_shield": {
-            "iron_shield": {
-               "display_name": "Swamp Guard Shield",
-               "description": "Swamp guard shield made of steel."
             }
          },
          "mushroom_shield": {
@@ -151,24 +175,6 @@
             "hearth_guard_helmet_light": {
                "display_name": "Light Hearth Guard Helmet",
                "description": "A light version of the hearth guard helmet."
-            }
-         },
-         "back_banner_generic": {
-            "back_banner_generic": {
-               "display_name": "Back Banner",
-               "description": "A back mounted banner with a skull ontop."
-            }
-         },
-         "back_banner_skull": {
-            "back_banner_skull": {
-               "display_name": "Skull Back Banner",
-               "description": "A back mounted banner with an aggressive skull pattern."
-            }
-         },
-         "back_banner_varanus": {
-            "back_banner_varanus": {
-               "description": "A back mounted banner with an inspiring varanusl pattern.",
-               "display_name": "Varanus Back Banner"
             }
          }
       },

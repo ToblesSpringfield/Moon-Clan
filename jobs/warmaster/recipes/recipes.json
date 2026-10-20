@@ -121,11 +121,11 @@
             "driftwood_shield": {
                 "recipe": "file(armor/driftwood_shield_recipe.json)"
 			},
-			"iron_shield": {
-                "recipe": "file(armor/iron_shield_recipe.json)"
-            },
 			"iron_spirit_walker_helmet": {
                 "recipe": "file(armor/iron_spirit_walker_helmet_recipe.json)"
+            },
+            "steel_spirit_walker_helmet": {
+                "recipe": "file(armor/steel_spirit_walker_helmet_recipe.json)"
             },
             "mushroom_shield": {
                 "recipe": "file(armor/mushroom_shield_recipe.json)"
@@ -138,6 +138,9 @@
             },
 			"swamp_guard_helmet_light": {
                 "recipe": "file(armor/swamp_guard_helmet_light_recipe.json)"
+            },
+            "swamp_guard_shield": {
+                "recipe": "file(armor/swamp_guard_shield_recipe.json)"
             },
 			"hearth_guard_armor": {
                 "recipe": "file(armor/hearth_guard_armor_recipe.json)"

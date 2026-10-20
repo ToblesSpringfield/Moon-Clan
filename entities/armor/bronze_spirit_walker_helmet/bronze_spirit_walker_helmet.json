@@ -18,7 +18,7 @@
          "render_type": "merge_with_model",
          "slot": "helmet",
          "ilevel": 5,
-         "required_job_level": 3,
+         "required_job_level": 2,
          "roles": [
             "goblin_spirit_walker_job"
          ],

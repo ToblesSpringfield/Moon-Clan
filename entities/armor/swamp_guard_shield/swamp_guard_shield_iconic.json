@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(iron_shield_iconic.qb)"
+               "file(swamp_guard_shield_iconic.qb)"
             ]
          }
       },
@@ -15,9 +15,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(moon_clan:entities.armor.iron_shield.iron_shield.display_name)",
-         "description": "i18n(moon_clan:entities.armor.iron_shield.iron_shield.description)",
-         "icon": "file(iron_shield.png)",
+         "display_name": "i18n(moon_clan:entities.armor.swamp_guard_shield.swamp_guard_shield.display_name)",
+         "description": "i18n(moon_clan:entities.armor.swamp_guard_shield.swamp_guard_shield.description)",
+         "icon": "file(swamp_guard_shield.png)",
          "is_item": true,
          "category": "armor"
       }

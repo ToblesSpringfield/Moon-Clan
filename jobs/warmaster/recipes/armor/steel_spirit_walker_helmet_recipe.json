@@ -1,0 +1,26 @@
+{
+	"type": "recipe",
+	"effort": 26,
+	"work_units": 5,
+	"recipe_name": "Steel Spirit Walker Helmet",
+	"description": "An upgrade for the spirit walker.",
+	"flavor": "Made out of cold steel, but protects a lot better",
+	"portrait": "/moon_clan/entities/armor/steel_spirit_walker_helmet/steel_spirit_walker_helmet.png",
+	"workshop": "moon_clan:warmaster:workbench",
+	"level_requirement": 3,
+	"ingredients": [
+	    {
+			"uri": "swamp_goblins:refined:jewel",
+			"count": 1
+		},
+		{
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+        }
+	],
+	"produces": [
+		{
+			"item": "moon_clan:armor:steel_spirit_walker_helmet"
+		}
+	]
+}

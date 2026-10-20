@@ -3,7 +3,7 @@
    "effort": 10,
    "work_units": 5,
    "recipe_name": "Driftwood Shield",
-   "description": "A shield made of some logs.",
+   "description": "A shield made of some found logs.",
    "flavor": "Everyone has to start somewhere when they make stuff",
    "portrait": "/moon_clan/entities/armor/driftwood_shield/driftwood_shield.png",
    "workshop": "moon_clan:warmaster:workbench",
