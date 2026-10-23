@@ -224,6 +224,10 @@
       	"moon_clan:weapons:war_fork" : "stonehearth_ace:mixins:weapons:twohanded_shaken_major",
       	"moon_clan:weapons:hearth_guard_bardiche" : "stonehearth_ace:mixins:weapons:twohanded_open_wounds_major",
 
+      	"moon_clan/jobs/bonesmith/armor/horned_full_helmet_recipe.json" : "stonehearth_ace/moon_clan/horned_full_helmet_recipe.json",
+      	"moon_clan/jobs/warmaster/recipes/weapons/bone_axe_recipe.json" : "stonehearth_ace/moon_clan/bone_axe_recipe.json",
+      	"moon_clan/jobs/warmaster/recipes/weapons/bone_sword_recipe.json" : "stonehearth_ace/moon_clan/bone_sword_recipe.json",
+
       	"moon_clan:warmaster:forge" : "/stonehearth_ace/moon_clan/mixins/workbench_forge_warmaster.json"
 
    	},
@@ -235,11 +239,7 @@
       	"stonehearth_ace/moon_clan/bone_axe_recipe.json" : "moon_clan/ace/recipes/weapons/bone_axe_recipe.json",
       	"stonehearth_ace/moon_clan/bone_sword_recipe.json" : "moon_clan/ace/recipes/weapons/bone_sword_recipe.json",
       
-      	"moon_clan/jobs/bonesmith/recipes/armor/horned_full_helmet_recipe.json" : "stonehearth_ace/moon_clan/horned_full_helmet_recipe.json",
-      	"moon_clan/jobs/warmaster/recipes/weapons/bone_axe_recipe.json" : "stonehearth_ace/moon_clan/bone_axe_recipe.json",
-      	"moon_clan/jobs/warmaster/recipes/weapons/bone_sword_recipe.json" : "stonehearth_ace/moon_clan/bone_sword_recipe.json",
-      
-      	"moon_clan/ace/mixins/workbench_fuel/workbench_fuel_warmaster.json" : "stonehearth_ace/moon_clan/mixins/workbench_forge_warmaster.json"
+      	"stonehearth_ace/moon_clan/mixins/workbench_forge_warmaster.json" : "file(ace/mixins/workbench_forge_warmaster.json)"
    	},
    	"components": {},
    	"controllers": {
