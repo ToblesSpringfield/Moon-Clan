@@ -1,5 +1,13 @@
 {
 	"mixins": "stonehearth:jobs:index",
 	"jobs": {
+		"swamp_goblins:jobs:earthmaster": {
+			"description": "moon_clan:jobs:earthmaster",
+			"firefly_job":"exclusive"
+		},
+		"swamp_goblins:jobs:bonesmith": {
+			"description": "moon_clan:jobs:bonesmith",
+			"firefly_job":"exclusive"
+		}
 	}
 }
