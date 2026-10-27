@@ -13,7 +13,9 @@ Decorations/Furniture:
 	Giant rug or wall hanging rug
 	Goblinfied vanilla_lampposts
 	Lamp post and wallhanging versions of lamps/lanterns
-	Mat/rug/mosaic 
+	Iron braziers
+	Candles from ace/base game
+	Mat/rug/gilded rug/mosaic 
 	More statues
 	Painting/tapestry, banner wall, awning
 	Weapon/armor decorations (stands from ACE)
@@ -24,6 +26,7 @@ Decorations/Furniture:
 	Base and comfortable versions of furniture
 	Tiles like SG base mod
 	"Clan Lua" concept items implementation
+	Gargoyles from base game/also make own versions
 
 
 Templates:
@@ -35,6 +38,7 @@ Templates:
 Redo:
 	Travel stall with moon clan influence
 	Cultural spin on all classes clothing! (like RC)
+	Possibly remake hearths
 
 Items with effects:
 	Speed up crafting with bonus from nearby items
