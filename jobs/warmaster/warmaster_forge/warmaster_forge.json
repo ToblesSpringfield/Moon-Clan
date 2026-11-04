@@ -4,7 +4,7 @@
    "components": {
       "stonehearth:workshop": {
          "job_alias": "moon_clan:jobs:warmaster",
-         "workshop_effect": "/stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/effects/work.json"
+         "workshop_effect": "/moon_clan/data/rigs/jobs/warmaster/warmaster_forge/effects/work.json"
       },
       "destination": {
          "region": [
@@ -31,7 +31,7 @@
          "placeable_on_ground": true
       },
       "effect_list": {
-         "default": "/stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/effects/idle.json"
+         "default": "/moon_clan/data/rigs/jobs/warmaster/warmaster_forge/effects/idle.json"
       }
    },
    "entity_data": {

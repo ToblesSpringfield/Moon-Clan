@@ -2,9 +2,9 @@
 	"type": "recipe",
 	"effort": 22,
 	"work_units": 3,
-	"recipe_name": "Bone Sword",
-	"description": "A sword made of chips of bone and wood",
-	"flavor": "Used to get more bone for future swords",
+	"recipe_name": "i18n(moon_clan:entities.weapons.bone_sword.bone_sword.display_name)",
+	"description": "i18n(moon_clan:entities.weapons.bone_sword.bone_sword.description)",
+	"flavor": "i18n(moon_clan:entities.weapons.bone_sword.bone_sword.flavor)",
 	"portrait": "/moon_clan/entities/weapons/bone_sword/bone_sword.png",
 	"workshop": "moon_clan:warmaster:workbench",
 	"level_requirement": 2,
@@ -18,8 +18,8 @@
 			"count": 1
 		},
 		{
-			"material": "stone resource",
-			"count": 1
+			"material": "bone resource",
+            "count": 1
 		}
 	],
 	"produces": [

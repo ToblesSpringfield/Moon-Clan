@@ -42,8 +42,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(moon_clan:entities.warsmith.warsmith_hammer.display_name)",
-         "description": "i18n(moon_clan:entities.warsmith.warsmith_hammer.description)",
+         "display_name": "i18n(moon_clan:entities.warmaster.warmaster_hammer.warmaster_hammer.display_name)",
+         "description": "i18n(moon_clan:entities.warmaster.warmaster_hammer.warmaster_hammer.description)",
          "icon": "file(warmaster_hammer.png)",
          "category": "tools",
          "material_tags": [

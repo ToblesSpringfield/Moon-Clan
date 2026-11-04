@@ -3,19 +3,16 @@
    "effort": 30,
    "work_units": 20,
    "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.copper_ingot_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.blacksmith.recipes.copper_ingot_recipe.description)",
+   "description": "i18n(stonehearth_ace:jobs.blacksmith.recipes.copper_ingot_recipe.description)",
    "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.copper_ingot_recipe.flavor)",
-   "portrait": "/stonehearth/entities/refined/copper_ingot/copper_ingot.png",
+   "portrait": "/stonehearth_ace/entities/refined/copper_ingot/copper_ingot.png",
+   "work_effect": "work_wait",
    "workshop": "moon_clan:warmaster:forge",
    "level_requirement": 1,
    "ingredients": [
       {
          "uri": "stonehearth:resources:copper:ore",
          "count": 2
-      },
-      {
-         "material": "wood resource",
-         "count": 1
       }
    ],
    "produces": [

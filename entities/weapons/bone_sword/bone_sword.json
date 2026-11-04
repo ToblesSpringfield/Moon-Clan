@@ -53,7 +53,7 @@
       },
       "stonehearth:catalog": {
          "display_name": "i18n(moon_clan:entities.weapons.bone_sword.bone_sword.display_name)",
-         "description": "i18n(moon_clan:entities.weapons.bone_sword.bone_sword.display_name)",
+         "description": "i18n(moon_clan:entities.weapons.bone_sword.bone_sword.description)",
          "icon": "file(bone_sword.png)",
          "category": "weapons",
          "material_tags": [

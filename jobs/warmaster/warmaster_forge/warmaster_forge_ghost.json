@@ -11,7 +11,7 @@
       },
       "render_info": {
          "scale": 0.15,
-         "animation_table": "/stonehearth/data/rigs/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json"
+         "animation_table": "/moon_clan/data/rigs/jobs/warmaster/warmaster_forge/warmaster_forge.json"
       },
       "model_variants": {
          "default": {
@@ -24,8 +24,9 @@
    "entity_data": {
       "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
-         "display_name": "i18n(moon_clan:entities.warsmith.warsmith_forge.display_name)",
-         "description": "i18n(moon_clan:entities.warsmith.warsmith_forge.description)",
+         "display_name": "i18n(moon_clan:entities.warmaster.warmaster_forge.warmaster_forge.display_name)",
+         "description": "i18n(moon_clan:entities.warmaster.warmaster_forge.warmaster_forge.description)",
+         "flavor": "i18n(moon_clan:entities.warmaster.warmaster_forge.flavor)",
          "icon": "file(warmaster_forge.png)",
          "category": "workshops",
          "material_tags": [

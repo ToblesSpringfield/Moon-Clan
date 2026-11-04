@@ -39,6 +39,7 @@ Redo:
 	Travel stall with moon clan influence
 	Cultural spin on all classes clothing! (like RC)
 	Possibly remake hearths
+	Gates with portcullis need a second look
 
 Items with effects:
 	Speed up crafting with bonus from nearby items
@@ -57,6 +58,7 @@ Quests:
 
 Ace stuff:
 	Look at beds
+	Fuel creaton thingy for warmaster
 	Find out more about ACE
 
 Mobs:

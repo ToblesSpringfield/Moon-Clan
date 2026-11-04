@@ -1,29 +1,29 @@
 {
-   "type": "recipe",
-   "work_units": 5,
-   "recipe_name": "Warmaster Forge",
-   "description": "The forge of the warmaster.",
-   "flavor": "Used to heat up stuff",
-   "portrait": "/moon_clan/jobs/warmaster/warmaster_forge/warmaster_forge.png",
-   "work_effect": "work",
-   "level_requirement": 0,
-   "ingredients": [
-        {
-			"uri": "swamp_goblins:resources:firefly_essense",
-			"count": 1
-		},
-		{
-            "material": "wood resource",
-            "count": 1
-        },
-        {
-            "material": "stone resource",
-            "count": 2
-        }
+    "type": "recipe",
+    "work_units": 5,
+    "display_name": "i18n(moon_clan:entities.warmaster.warmaster_forge.warmaster_forge.display_name)",
+    "description": "i18n(moon_clan:entities.warmaster.warmaster_forge.warmaster_forge.description)",
+    "flavor": "i18n(moon_clan:entities.warmaster.warmaster_forge.warmaster_forge.flavor)",
+    "portrait": "/moon_clan/jobs/warmaster/warmaster_forge/warmaster_forge.png",
+    "work_effect": "work",
+    "level_requirement": 0,
+    "ingredients": [
+      {
+			 "uri": "swamp_goblins:resources:firefly_essense",
+			 "count": 1
+		  },
+		  {
+        "material": "wood resource",
+        "count": 1
+      },
+      {
+        "material": "stone resource",
+        "count": 2
+      }
     ],
-   "produces": [
+    "produces": [
         {
-         "item": "moon_clan:warmaster:forge"
+          "item": "moon_clan:warmaster:forge"
         }
-    ]
+      ]
 }

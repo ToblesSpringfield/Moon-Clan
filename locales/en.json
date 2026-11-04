@@ -9,14 +9,14 @@
             "menu": {
                "goblins": {
                   "jobs": {
-                     "warmaster": "Warsmith"
+                     "warmaster": "warmaster"
                   }
                }
             },
             "pages": {
                "jobs": {
                   "warmaster": {
-                     "title": "Warsmith",
+                     "title": "warmaster",
                      "description1": "One who manipulates ore",
                      "topic1": {
                         "title": "Description: ",
@@ -24,11 +24,11 @@
                      },
                      "topic2": {
                         "title": "What it does: ",
-                        "desc1": "The warsmith manipulates ore to forge metal weapons and armour."
+                        "desc1": "The warmaster manipulates ore to forge metal weapons and armour."
                      },
                      "topic3": {
                         "title": "Beyond metal: ",
-                        "desc1": "After gaining knowledge, the warsmith tinkers with magic and mechanics to create turrets and traps."
+                        "desc1": "After gaining knowledge, the warmaster tinkers with magic and mechanics to create turrets and traps."
                      }
                   }
                }
@@ -41,7 +41,7 @@
                "jobs": {
                   "items": {
                      "warmaster": {
-                        "display_name": "Warsmith",
+                        "display_name": "warmaster",
                         "open_page_id": "jobs_warmaster"
                      }
                   }
@@ -546,7 +546,8 @@
          "bone_sword": {
             "bone_sword": {
                "display_name": "One handed bone sword.",
-               "description": "A sword made with bone bits."
+               "description": "A sword made with bone bits.",
+               "flavor": "Used to get more bone for future swords"
             }
          },
          "bronze_axe": {
@@ -660,42 +661,44 @@
             }
          }
       },
-      "warsmith": {
-         "warsmith_talisman": {
-            "warsmith_talisman": {
-               "display_name": "Warsmith Talisman",
-               "description": "Used to promote to a warsmith."
-            },
-            "display_name": "Warsmith Talisman",
-            "description": "Used to promote to a warsmith."
+      "warmaster": {
+         "warmaster_talisman": {
+            "warmaster_talisman": {
+               "display_name": "Warmaster Talisman",
+               "description": "Used to promote to a warmaster."
+            }
          },
-         "warsmith_hammer": {
-            "warsmith_hammer": {
-               "display_name": "Warsmith Hammer",
-               "description": "The Warsmiths' hammer."
-            },
-            "display_name": "Warsmith Hammer",
-            "description": "The Warsmiths' hammer."
+         "warmaster_hammer": {
+            "warmaster_hammer": {
+               "display_name": "Warmaster Hammer",
+               "description": "The warmasters' hammer."
+            }
          },
-         "warsmith_outfit": {
-            "warsmith_outfit": {
-               "display_name": "Warsmith Outfit",
-               "description": "The Warsmiths' outfit."
-            },
-            "display_name": "Warsmith Outfit",
-            "description": "The Warsmiths' outfit."
+         "warmaster_outfit": {
+            "warmaster_outfit": {
+               "display_name": "Warmaster Outfit",
+               "description": "The warmasters' outfit."
+            }
          },
-         "warsmith_forge": {
-            "warsmith_forge": {
-               "display_name": "Warsmith Forge",
-               "description": "Used for heating up metals and melting ore."
-            },
-            "display_name": "Warsmith Forge",
-            "description": "Used for heating up metals and melting ore."
+         "warmaster_helmet": {
+            "warmaster_helmet": {
+               "display_name": "Warmaster Helmet",
+               "description": "The warmasters' helmet."
+            }
          },
-         "warsmith_workbench": {
-            "display_name": "Warsmith Anvil",
-            "description": "Where hot metal is forged into usable items."
+         "warmaster_forge": {
+            "warmaster_forge": {
+               "display_name": "Warmaster Forge",
+               "description": "Used for heating up metals and melting ore.",
+               "flavor": "Ouch! Very hot!"
+            }
+         },
+         "warmaster_workbench": {
+            "warmaster_workbench": {
+               "display_name": "Warmaster Anvil",
+               "description": "Where hot metal is forged into usable items.",
+               "flavor": "Hit one thing with another thing to make a thing"
+            }
          }
       },
       "warfare": {

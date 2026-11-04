@@ -3,9 +3,10 @@
    "effort": 30,
    "work_units": 20,
    "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.steel_ingot_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.blacksmith.recipes.steel_ingot_recipe.description)",
+   "description": "i18n(stonehearth_ace:jobs.blacksmith.recipes.steel_ingot_recipe.description)",
    "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.steel_ingot_recipe.flavor)",
-   "portrait": "/stonehearth/entities/refined/steel_ingot/steel_ingot.png",
+   "portrait": "/stonehearth_ace/entities/refined/steel_ingot/steel_ingot.png",
+   "work_effect": "work_wait",
    "workshop": "moon_clan:warmaster:forge",
    "level_requirement": 4,
    "ingredients": [
@@ -15,10 +16,6 @@
       },
       {
          "uri": "stonehearth:resources:coal:lump_of_coal",
-         "count": 1
-      },
-      {
-         "material": "wood resource",
          "count": 1
       }
    ],

@@ -31,17 +31,38 @@
             "tin_ingot": {
                 "recipe": "/moon_clan/jobs/warmaster/recipes/materials/tin_ingot_recipe.json"
             },
+            "tin_ingot_pile": {
+                "recipe": "/stonehearth_ace/jobs/blacksmith/recipes/tin_ingot_pile_recipe.json"
+            },
             "bronze_ingot": {
                 "recipe": "/moon_clan/jobs/warmaster/recipes/materials/bronze_ingot_recipe.json"
+            },
+            "bronze_ingot_pile": {
+                "recipe": "/stonehearth_ace/jobs/blacksmith/recipes/bronze_ingot_pile_recipe.json"
             },
             "iron_ingot": {
                 "recipe": "/moon_clan/jobs/warmaster/recipes/materials/iron_ingot_recipe.json"
             },
-			"steel_ingot": {
+            "iron_ingot_pile": {
+                "recipe": "/stonehearth_ace/jobs/blacksmith/recipes/iron_ingot_pile_recipe.json"
+            },
+            "silver_ingot": {
+                "recipe": "/moon_clan/jobs/warmaster/recipes/materials/silver_ingot_recipe.json"
+            },	
+            "silver_ingot_pile": {
+                "recipe": "/stonehearth_ace/jobs/blacksmith/recipes/silver_ingot_pile_recipe.json"
+            },  		
+            "steel_ingot": {
                 "recipe": "/moon_clan/jobs/warmaster/recipes/materials/steel_ingot_recipe.json"
+            },
+            "steel_ingot_pile": {
+                "recipe": "/stonehearth_ace/jobs/blacksmith/recipes/steel_ingot_pile_recipe.json"
             },
             "gold_ingot": {
                 "recipe": "/moon_clan/jobs/warmaster/recipes/materials/gold_ingot_recipe.json"
+            },
+            "gold_ingot_pile": {
+                "recipe": "/stonehearth_ace/jobs/blacksmith/recipes/gold_ingot_pile_recipe.json"
             },
 			"gold_flakes": {
                 "recipe": "/moon_clan/jobs/warmaster/recipes/materials/gold_flakes_recipe.json"

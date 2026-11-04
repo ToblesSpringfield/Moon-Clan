@@ -23,8 +23,8 @@
    "entity_data": {
       "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
-         "display_name": "i18n(moon_clan:entities.warsmith.warsmith_workbench_advanced.display_name)",
-         "description": "i18n(moon_clan:entities.warsmith.warsmith_workbench_advanced.description)",
+         "display_name": "i18n(moon_clan:entities.warmaster.warmaster_workbench_advanced.warmaster_workbench_advanced.display_name)",
+         "description": "i18n(moon_clan:entities.warmaster.warmaster_workbench_advanced.warmaster_workbench_advanced.description)",
          "icon": "file(warmaster_workbench_advanced.png)",
          "category": "workshops",
          "material_tags": [
