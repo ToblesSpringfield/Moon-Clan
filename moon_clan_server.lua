@@ -40,6 +40,7 @@ Redo:
 	Cultural spin on all classes clothing! (like RC)
 	Possibly remake hearths
 	Gates with portcullis need a second look
+	Look at improved outfit gem glow. Looks better than current on several items/workshops.
 
 Items with effects:
 	Speed up crafting with bonus from nearby items
@@ -70,6 +71,7 @@ Jobs:
 		Crafting stations re-makes/adjustments
 		Silver Armor/Weapons
 		Snake Blessed Armor/Weapons
+		Battle Chest (Smaller chest than War Vault)
 
 	Tinkerer (engineer)
 		Ace Engineer port over 

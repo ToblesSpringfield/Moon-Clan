@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.iron_ingot_recipe.recipe_name)",
+   "description": "i18n(stonehearth_ace:jobs.blacksmith.recipes.iron_ingot_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.iron_ingot_recipe.flavor)",
+   "portrait": "/stonehearth_ace/entities/refined/iron_ingot/iron_ingot.png",
+   "work_effect": "work_wait",
+   "workshop": "moon_clan:warmaster:forge",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:resources:iron:ore",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:iron_ingot"
+      }
+   ]
+}

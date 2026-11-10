@@ -26,25 +26,25 @@
             "name": "Smelting",
             "recipes": {
                 "copper_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/copper_ingot_recipe.json"
+                    "recipe": "file(smelt/copper_ingot_recipe.json)"
                 },
                 "tin_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/tin_ingot_recipe.json"
+                    "recipe": "file(smelt/tin_ingot_recipe.json)"
                 },
                 "bronze_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/bronze_ingot_recipe.json"
+                    "recipe": "file(smelt/bronze_ingot_recipe.json)"
                 },
                 "iron_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/iron_ingot_recipe.json"
+                    "recipe": "file(smelt/iron_ingot_recipe.json)"
                 },
                 "silver_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/silver_ingot_recipe.json"
+                    "recipe": "file(smelt/silver_ingot_recipe.json)"
                 },
                 "steel_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/steel_ingot_recipe.json"
+                    "recipe": "file(smelt/steel_ingot_recipe.json)"
                 },
                 "gold_ingot": {
-                    "recipe": "/stonehearth/jobs/blacksmith/recipes/gold_ingot_recipe.json"
+                    "recipe": "file(smelt/gold_ingot_recipe.json)"
                 }
             }
         },
