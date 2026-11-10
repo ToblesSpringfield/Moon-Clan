@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 60   ,
+   "work_units": 6,
+   "recipe_name": "i18n(stonehearth_ace:jobs.blacksmith.recipes.gold_ingot_from_coins_recipe.recipe_name)",
+   "description": "i18n(stonehearth_ace:jobs.blacksmith.recipes.gold_ingot_from_coins_recipe.description)",
+   "flavor": "i18n(stonehearth_ace:jobs.blacksmith.recipes.gold_ingot_from_coins_recipe.flavor)",
+   "portrait": "/stonehearth_ace/entities/refined/gold_ingot/gold_ingot.png",
+	"ace_smart_crafter_ignore": true,
+   "workshop": "moon_clan:warmaster:warmaster_fuel_oven",
+   "work_effect": "fiddle",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:loot:gold",
+         "count": 1,
+         "min_stacks": 100
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:gold_ingot",
+         "produce_scripts": ["stonehearth_ace:craft_script:stacks_per_product"],
+         "max_crafts": 1,
+         "stacks_per_product": {
+            "stonehearth:loot:gold": 100
+         }
+      }
+   ]
+}

@@ -27,6 +27,7 @@
       	"warmaster:outfit" : "file(jobs/warmaster/warmaster_outfit/warmaster_outfit.json)",
       	"warmaster:workbench" : "file(jobs/warmaster/warmaster_workbench/warmaster_workbench.json)",
       	"warmaster:forge" : "file(jobs/warmaster/warmaster_forge/warmaster_forge.json)",
+         "warmaster:warmaster_fuel_oven" : "file(jobs/warmaster/warmaster_fuel_oven/warmaster_fuel_oven.json)",
       
       	"animations:fire" : "file(data/rigs/alligator_small_guardian/animations/fire.json)",
       	"animations:idle" : "file(data/rigs/alligator_small_guardian/animations/idle.json)",
